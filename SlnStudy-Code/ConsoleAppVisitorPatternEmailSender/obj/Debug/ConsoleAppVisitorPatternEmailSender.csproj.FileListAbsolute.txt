@@ -1,0 +1,6 @@
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppVisitorPatternEmailSender\bin\Debug\ConsoleAppVisitorPatternEmailSender.exe.config
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppVisitorPatternEmailSender\bin\Debug\ConsoleAppVisitorPatternEmailSender.exe
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppVisitorPatternEmailSender\bin\Debug\ConsoleAppVisitorPatternEmailSender.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppVisitorPatternEmailSender\obj\Debug\ConsoleAppVisitorPatternEmailSender.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppVisitorPatternEmailSender\obj\Debug\ConsoleAppVisitorPatternEmailSender.exe
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppVisitorPatternEmailSender\obj\Debug\ConsoleAppVisitorPatternEmailSender.pdb

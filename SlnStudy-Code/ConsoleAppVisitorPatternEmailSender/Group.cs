@@ -2,13 +2,21 @@
 
 namespace ConsoleAppVisitorPatternEmailSender
 {
-    public class Group
+    public class Group: IAsset
     {
-        public List<Person> Members { get; set; }
+        public List<IAsset> Members { get; set; }
 
         public Group()
         {
-            Members = new List<Person>();
+            Members = new List<IAsset>();
+        }
+
+        public void Accept(IGroupVisitor visitor)
+        {
+            foreach (var member in Members)
+            {
+                member.Accept(visitor);
+            }
         }
     }
 }
