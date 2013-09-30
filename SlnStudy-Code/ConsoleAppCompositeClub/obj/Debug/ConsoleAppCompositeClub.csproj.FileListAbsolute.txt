@@ -1,0 +1,6 @@
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppCompositeClub\bin\Debug\ConsoleAppCompositeClub.exe.config
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppCompositeClub\bin\Debug\ConsoleAppCompositeClub.exe
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppCompositeClub\bin\Debug\ConsoleAppCompositeClub.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppCompositeClub\obj\Debug\ConsoleAppCompositeClub.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppCompositeClub\obj\Debug\ConsoleAppCompositeClub.exe
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppCompositeClub\obj\Debug\ConsoleAppCompositeClub.pdb
