@@ -48,7 +48,7 @@ namespace ConsoleAppVisitorPatternEmailSender
 
             var groupVisitor = new GroupVisitor();
 
-            var group = new Group()
+            var group = new Group
                 {
                     Members = {devs, priscilla, lorena}
                 };
