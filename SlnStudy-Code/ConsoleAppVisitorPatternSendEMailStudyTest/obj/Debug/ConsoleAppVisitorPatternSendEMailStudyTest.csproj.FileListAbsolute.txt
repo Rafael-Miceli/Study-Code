@@ -1,0 +1,5 @@
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppVisitorPatternSendEMailStudyTest\bin\Debug\ConsoleAppVisitorPatternSendEMailStudyTest.dll
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppVisitorPatternSendEMailStudyTest\bin\Debug\ConsoleAppVisitorPatternSendEMailStudyTest.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppVisitorPatternSendEMailStudyTest\obj\Debug\ConsoleAppVisitorPatternSendEMailStudyTest.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppVisitorPatternSendEMailStudyTest\obj\Debug\ConsoleAppVisitorPatternSendEMailStudyTest.dll
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppVisitorPatternSendEMailStudyTest\obj\Debug\ConsoleAppVisitorPatternSendEMailStudyTest.pdb
