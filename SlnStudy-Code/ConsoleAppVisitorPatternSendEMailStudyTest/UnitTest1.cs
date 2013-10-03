@@ -1,4 +1,5 @@
 ﻿using System;
+using ConsoleAppVisitorPatternSendEmailStudy;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ConsoleAppVisitorPatternSendEMailStudyTest
@@ -67,6 +68,14 @@ namespace ConsoleAppVisitorPatternSendEMailStudyTest
                     Members = {lorena, priscilla, erick}
                 };
 
+            var everybody = new Group()
+                {
+                    Members = {devs, users}
+                };
+
+            var groupVisitor = new GroupVisitor();
+
+            everybody.Accept(groupVisitor);
 
         }
     }

@@ -50,12 +50,14 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Group.cs" />
-    <Compile Include="IGroupVisitor.cs" />
-    <Compile Include="Person.cs" />
-    <Compile Include="SendEmailService.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleAppVisitorPatternSendEmailStudy\ConsoleAppVisitorPatternSendEmailStudy.csproj">
+      <Project>{3BE40222-1D4E-42C4-A064-E8C436EC96F3}</Project>
+      <Name>ConsoleAppVisitorPatternSendEmailStudy</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
