@@ -1,6 +1,0 @@
-C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppCompositePattern\obj\Debug\ConsoleAppCompositePattern.csprojResolveAssemblyReference.cache
-C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppCompositePattern\bin\Debug\ConsoleAppCompositePattern.exe.config
-C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppCompositePattern\bin\Debug\ConsoleAppCompositePattern.exe
-C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppCompositePattern\bin\Debug\ConsoleAppCompositePattern.pdb
-C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppCompositePattern\obj\Debug\ConsoleAppCompositePattern.exe
-C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppCompositePattern\obj\Debug\ConsoleAppCompositePattern.pdb
