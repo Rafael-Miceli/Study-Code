@@ -1,0 +1,5 @@
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\FacadePatternStudy\ConsoleAppFacadePatternStudy.Tests\bin\Debug\ConsoleAppFacadePatternStudy.Tests.dll
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\FacadePatternStudy\ConsoleAppFacadePatternStudy.Tests\bin\Debug\ConsoleAppFacadePatternStudy.Tests.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\FacadePatternStudy\ConsoleAppFacadePatternStudy.Tests\obj\Debug\ConsoleAppFacadePatternStudy.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\FacadePatternStudy\ConsoleAppFacadePatternStudy.Tests\obj\Debug\ConsoleAppFacadePatternStudy.Tests.dll
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\FacadePatternStudy\ConsoleAppFacadePatternStudy.Tests\obj\Debug\ConsoleAppFacadePatternStudy.Tests.pdb

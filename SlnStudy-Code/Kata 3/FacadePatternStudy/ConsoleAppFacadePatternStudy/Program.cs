@@ -13,12 +13,14 @@ namespace ConsoleAppFacadePatternStudy
             var associateService = new AssociateService();
             var associate = associateService.GetAssociate(2);
 
-            var itemsService = new itemsService();
-            var expenseList = new ExpenseList();
-            expenseList.Add(itemsService.GetLast5BuyedItems(associate));
+            var itemsService = new ItemsService();
+            var expenseList = new List<IExpense>
+                {
+                    itemsService.GetLast5BuyedItems(associate)
+                };
 
-            var turnStilePoolService = new TurnStileService(PoolTurnStile);
-            var turnStileTenisService = new TurnStileService(TenisTrunStile);
+            var turnStilePoolService = new TurnStyleService(new PoolTurnStyle());
+            var turnStileTenisService = new TurnStyleService(new TenisTurnStyle());
 
             expenseList.Add(turnStilePoolService.GetLast2Turned(associate));
             expenseList.Add(turnStileTenisService.GetLast2Turned(associate));
