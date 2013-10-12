@@ -14,7 +14,8 @@ namespace ConsoleAppFacadePatternStudy
 
             foreach (var expense in expenseList)
             {
-                Console.WriteLine(expense.Name);    
+                Console.WriteLine(expense.Name);   
+                Console.WriteLine(expense.Price);
             }
 
             Console.ReadKey();
