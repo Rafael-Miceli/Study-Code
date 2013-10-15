@@ -1,0 +1,6 @@
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\IoC Container\ConsoleAppIoCContainer\bin\Debug\ConsoleAppIoCContainer.exe.config
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\IoC Container\ConsoleAppIoCContainer\bin\Debug\ConsoleAppIoCContainer.exe
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\IoC Container\ConsoleAppIoCContainer\bin\Debug\ConsoleAppIoCContainer.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\IoC Container\ConsoleAppIoCContainer\obj\Debug\ConsoleAppIoCContainer.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\IoC Container\ConsoleAppIoCContainer\obj\Debug\ConsoleAppIoCContainer.exe
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\IoC Container\ConsoleAppIoCContainer\obj\Debug\ConsoleAppIoCContainer.pdb
