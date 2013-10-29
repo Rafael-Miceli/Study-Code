@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.20827.3
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppCompositePattern", "Kata 1\CompositePattern\ConsoleAppCompositePattern\ConsoleAppCompositePattern.csproj", "{DAA9509C-E2E7-4980-8EA1-9D1956818A8A}"
 EndProject
@@ -46,6 +46,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kata4", "Kata4", "{C83CF09D-B0C8-45C1-859C-9FE8BD040645}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TDD-Study", "TDD-Study", "{E6034405-5824-42BA-A911-7C8F4E8C3279}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsabilityPatternStudy", "ChainOfResponsabilityPatternStudy", "{2C8EE2D3-C507-49F7-B709-ABACB6D99098}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -116,5 +118,6 @@ Global
 		{90E670B8-D546-453E-8BF7-873E7D1575D4} = {184EBCA2-9725-4A52-B476-6C0D89C98AC3}
 		{5C15DAF7-DD0C-4033-83BA-BCB6CF744FC3} = {7A1906A7-B144-4EEB-B88F-D521E0540DD5}
 		{E6034405-5824-42BA-A911-7C8F4E8C3279} = {C83CF09D-B0C8-45C1-859C-9FE8BD040645}
+		{2C8EE2D3-C507-49F7-B709-ABACB6D99098} = {C83CF09D-B0C8-45C1-859C-9FE8BD040645}
 	EndGlobalSection
 EndGlobal
