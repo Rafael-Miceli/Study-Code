@@ -20,7 +20,11 @@
     @Scripts.Render("~/scripts/modernizr")
 </head>
     <body>
-        Welcome to CodeCamper JumpStart !
+        <div id="applicationHost">
+            @RenderPage("_splash.cshtml")
+        </div>
+
         @Scripts.Render("~/scripts/vendor")
+        <script src="Scripts/require.js" data-main="App/main"></script>
     </body>
 </html>

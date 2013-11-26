@@ -7,6 +7,5 @@ C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppCompositeClu
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePatternWithTDD\ConsoleAppCompositeClub\bin\Debug\ConsoleAppCompositeClub.exe.config
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePatternWithTDD\ConsoleAppCompositeClub\bin\Debug\ConsoleAppCompositeClub.exe
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePatternWithTDD\ConsoleAppCompositeClub\bin\Debug\ConsoleAppCompositeClub.pdb
-C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePatternWithTDD\ConsoleAppCompositeClub\obj\Debug\ConsoleAppCompositeClub.csprojResolveAssemblyReference.cache
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePatternWithTDD\ConsoleAppCompositeClub\obj\Debug\ConsoleAppCompositeClub.exe
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePatternWithTDD\ConsoleAppCompositeClub\obj\Debug\ConsoleAppCompositeClub.pdb

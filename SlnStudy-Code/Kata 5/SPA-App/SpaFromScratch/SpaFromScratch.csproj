@@ -11,7 +11,7 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SpaFromScratch</RootNamespace>
+    <RootNamespace>CodeCamper</RootNamespace>
     <AssemblyName>SpaFromScratch</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
@@ -122,6 +122,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\logger.js" />
+    <Content Include="App\main.js" />
+    <Content Include="App\shell.html" />
+    <Content Include="App\shell.js" />
+    <Content Include="App\speakers.html" />
+    <Content Include="App\speakers.js" />
     <Content Include="App_Data\CodeCamper.sdf" />
     <Content Include="content\bootstrap-theme.css" />
     <Content Include="content\bootstrap-theme.min.css" />

@@ -1,7 +1,7 @@
 ﻿using System.Web.Http;
 using Newtonsoft.Json.Serialization;
 
-namespace CodeCamper
+namespace CodeCamper.App_Start
 {
     public static class WebApiConfig
     {
