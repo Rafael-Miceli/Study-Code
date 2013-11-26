@@ -1,5 +1,5 @@
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 4\ChainOfResponsabilityPatternStudy\ChainOfResponsabilityPatternStudy\bin\Debug\ChainOfResponsabilityPatternStudy.exe
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 4\ChainOfResponsabilityPatternStudy\ChainOfResponsabilityPatternStudy\bin\Debug\ChainOfResponsabilityPatternStudy.pdb
-C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 4\ChainOfResponsabilityPatternStudy\ChainOfResponsabilityPatternStudy\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 4\ChainOfResponsabilityPatternStudy\ChainOfResponsabilityPatternStudy\obj\x86\Debug\ChainOfResponsabilityPatternStudy.exe
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 4\ChainOfResponsabilityPatternStudy\ChainOfResponsabilityPatternStudy\obj\x86\Debug\ChainOfResponsabilityPatternStudy.pdb
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 4\ChainOfResponsabilityPatternStudy\ChainOfResponsabilityPatternStudy\obj\x86\Debug\ChainOfResponsabilityPatternStudy.csprojResolveAssemblyReference.cache

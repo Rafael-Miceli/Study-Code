@@ -4,3 +4,9 @@ C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppVisitorPatte
 C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppVisitorPatternSendEmail\obj\Debug\ConsoleAppCompositePatternSendEmail.csprojResolveAssemblyReference.cache
 C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppVisitorPatternSendEmail\obj\Debug\ConsoleAppVisitorPatternSendEmail.exe
 C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\ConsoleAppVisitorPatternSendEmail\obj\Debug\ConsoleAppVisitorPatternSendEmail.pdb
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\CompositePatternWithTDD\ConsoleAppCompositePatternSendEmail\bin\Debug\ConsoleAppVisitorPatternSendEmail.exe.config
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\CompositePatternWithTDD\ConsoleAppCompositePatternSendEmail\bin\Debug\ConsoleAppVisitorPatternSendEmail.exe
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\CompositePatternWithTDD\ConsoleAppCompositePatternSendEmail\bin\Debug\ConsoleAppVisitorPatternSendEmail.pdb
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\CompositePatternWithTDD\ConsoleAppCompositePatternSendEmail\obj\Debug\ConsoleAppCompositePatternSendEmail.csprojResolveAssemblyReference.cache
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\CompositePatternWithTDD\ConsoleAppCompositePatternSendEmail\obj\Debug\ConsoleAppVisitorPatternSendEmail.exe
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\CompositePatternWithTDD\ConsoleAppCompositePatternSendEmail\obj\Debug\ConsoleAppVisitorPatternSendEmail.pdb

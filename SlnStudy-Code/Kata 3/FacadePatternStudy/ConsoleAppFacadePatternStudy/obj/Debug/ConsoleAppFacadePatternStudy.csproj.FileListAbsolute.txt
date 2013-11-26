@@ -4,3 +4,9 @@ C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\FacadePatternSt
 C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\FacadePatternStudy\ConsoleAppFacadePatternStudy\obj\Debug\ConsoleAppFacadePatternStudy.csprojResolveAssemblyReference.cache
 C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\FacadePatternStudy\ConsoleAppFacadePatternStudy\obj\Debug\ConsoleAppFacadePatternStudy.exe
 C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\FacadePatternStudy\ConsoleAppFacadePatternStudy\obj\Debug\ConsoleAppFacadePatternStudy.pdb
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\FacadePatternStudy\ConsoleAppFacadePatternStudy\bin\Debug\ConsoleAppFacadePatternStudy.exe.config
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\FacadePatternStudy\ConsoleAppFacadePatternStudy\bin\Debug\ConsoleAppFacadePatternStudy.exe
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\FacadePatternStudy\ConsoleAppFacadePatternStudy\bin\Debug\ConsoleAppFacadePatternStudy.pdb
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\FacadePatternStudy\ConsoleAppFacadePatternStudy\obj\Debug\ConsoleAppFacadePatternStudy.csprojResolveAssemblyReference.cache
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\FacadePatternStudy\ConsoleAppFacadePatternStudy\obj\Debug\ConsoleAppFacadePatternStudy.exe
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 3\FacadePatternStudy\ConsoleAppFacadePatternStudy\obj\Debug\ConsoleAppFacadePatternStudy.pdb

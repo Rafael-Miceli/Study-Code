@@ -12,3 +12,10 @@ C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\VisitorPatternW
 C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\VisitorPatternWithTDD\ConsoleAppVisitorPatternSendEMailStudyTest\obj\Debug\ConsoleAppVisitorPatternSendEMailStudyTest.csprojResolveAssemblyReference.cache
 C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\VisitorPatternWithTDD\ConsoleAppVisitorPatternSendEMailStudyTest\obj\Debug\ConsoleAppVisitorPatternSendEMailStudyTest.dll
 C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\VisitorPatternWithTDD\ConsoleAppVisitorPatternSendEMailStudyTest\obj\Debug\ConsoleAppVisitorPatternSendEMailStudyTest.pdb
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\VisitorPatternWithTDD\ConsoleAppVisitorPatternSendEMailStudyTest\bin\Debug\ConsoleAppVisitorPatternSendEMailStudyTest.dll
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\VisitorPatternWithTDD\ConsoleAppVisitorPatternSendEMailStudyTest\bin\Debug\ConsoleAppVisitorPatternSendEMailStudyTest.pdb
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\VisitorPatternWithTDD\ConsoleAppVisitorPatternSendEMailStudyTest\bin\Debug\ConsoleAppVisitorPatternSendEmailStudy.exe
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\VisitorPatternWithTDD\ConsoleAppVisitorPatternSendEMailStudyTest\bin\Debug\ConsoleAppVisitorPatternSendEmailStudy.pdb
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\VisitorPatternWithTDD\ConsoleAppVisitorPatternSendEMailStudyTest\obj\Debug\ConsoleAppVisitorPatternSendEMailStudyTest.csprojResolveAssemblyReference.cache
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\VisitorPatternWithTDD\ConsoleAppVisitorPatternSendEMailStudyTest\obj\Debug\ConsoleAppVisitorPatternSendEMailStudyTest.dll
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\VisitorPatternWithTDD\ConsoleAppVisitorPatternSendEMailStudyTest\obj\Debug\ConsoleAppVisitorPatternSendEMailStudyTest.pdb
