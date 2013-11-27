@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Web.Http;
 using System.Web.Optimization;
-using CodeCamper.App_Start;
 
 namespace CodeCamper
 {

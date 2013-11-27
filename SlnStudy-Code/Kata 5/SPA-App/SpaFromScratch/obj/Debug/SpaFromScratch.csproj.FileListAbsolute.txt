@@ -29,7 +29,6 @@ C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\System.Net.Http.Formatting.dll
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\System.Web.Helpers.dll
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\System.Web.Http.dll
-C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\System.Web.Http.WebHost.dll
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\System.Web.Mvc.dll
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\System.Web.Optimization.dll
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\System.Web.Razor.dll
@@ -44,7 +43,6 @@ C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\Newtonsoft.Json.xml
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\System.Net.Http.Formatting.xml
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\System.Web.Http.xml
-C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\System.Web.Http.WebHost.xml
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\System.Web.Optimization.xml
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\System.Web.Razor.xml
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\System.Web.Webpages.xml
@@ -55,3 +53,5 @@ C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\obj\Debug\SpaFromScratch.csprojResolveAssemblyReference.cache
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\obj\Debug\SpaFromScratch.dll
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\obj\Debug\SpaFromScratch.pdb
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\System.Web.Http.WebHost.dll
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\SpaFromScratch\bin\System.Web.Http.WebHost.xml

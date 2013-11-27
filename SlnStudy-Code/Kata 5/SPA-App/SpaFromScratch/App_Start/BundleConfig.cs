@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web.Optimization;
 
-namespace CodeCamper.App_Start
+namespace CodeCamper
 {
     public class BundleConfig
     {
