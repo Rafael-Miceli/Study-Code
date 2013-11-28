@@ -103,6 +103,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\logger.js" />
+    <Content Include="App\main.js" />
+    <Content Include="App\shell.html" />
+    <Content Include="App\shell.js" />
+    <Content Include="App\speakers.html" />
+    <Content Include="App\speakers.js" />
     <Content Include="App_Data\CodeCamper.sdf" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -191,6 +197,7 @@
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-2.0.3.min.map" />
     <Content Include="Scripts\toastr.min.js.map" />
+    <Content Include="_splash.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />

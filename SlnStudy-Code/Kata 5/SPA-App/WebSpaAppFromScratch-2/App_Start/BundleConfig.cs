@@ -18,6 +18,8 @@ namespace CodeCamper
               new ScriptBundle("~/scripts/vendor")
                 .Include("~/scripts/jquery-{version}.min.js")
                 .Include("~/scripts/bootstrap.min.js")
+                .Include("~/scripts/knockout-{version}.js")
+                .Include("~/scripts/toastr.js")
               );
 
             bundles.Add(
@@ -27,6 +29,7 @@ namespace CodeCamper
                 .Include("~/Content/bootstrap-responsive.min.css")
                 .Include("~/Content/font-awesome.min.css")
                 .Include("~/Content/styles.css")
+                .Include("~/Content/toastr.css")
              );
         }
 

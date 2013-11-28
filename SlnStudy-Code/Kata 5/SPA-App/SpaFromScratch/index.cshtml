@@ -19,12 +19,12 @@
     </script>
     @Scripts.Render("~/scripts/modernizr")
 </head>
-    <body>
-        <div id="applicationHost">
-            @RenderPage("_splash.cshtml")
-        </div>
+<body>
+    <div id="applicationHost">
+        @RenderPage("_splash.cshtml")
+    </div>
 
-        @Scripts.Render("~/scripts/vendor")
-        <script src="Scripts/require.js" data-main="App/main"></script>
-    </body>
+    @Scripts.Render("~/scripts/vendor")
+    <script src="Scripts/require.js" data-main="App/main"></script>
+</body>
 </html>
