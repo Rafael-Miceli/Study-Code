@@ -3,8 +3,8 @@
 });
 
 define(function(require) {
-    var system = require('../Scripts/durandal/system');
-    var app = require('../Scripts/durandal/app');
+    var system = require('../Scripts/durandal/system'),
+        app = require('../Scripts/durandal/app');
     
     system.debug(true);
     app.start().then(function () {
