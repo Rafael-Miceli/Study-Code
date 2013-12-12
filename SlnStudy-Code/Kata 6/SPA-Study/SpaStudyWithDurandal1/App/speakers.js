@@ -1,13 +1,28 @@
-﻿define(
-    function () {
-        var vm = {
-            activate: activate
-        };
+﻿
+define(['dataservice'],
+function (dataService) {
+    
+    var speakers = ko.observableArray();
+    var initialized = false;
 
-        return vm;
+    var vm = {
+        activate: activate,
+        speakers: speakers,
+        title: "Speakers",
+        refresh: refresh
+    };
+
+    return vm;
         
-        function activate() {
-            
-        }
+    function activate() {
+        if (initialized) 
+            return;
+        
+        initialized = true;
+        return refresh();
     }
-);
+    
+    function refresh() {
+        return dataService.getSpeakersPartials(speakers);
+    }
+});

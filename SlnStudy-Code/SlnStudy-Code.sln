@@ -71,6 +71,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SPA-Study", "SPA-Study", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaStudyWithDurandal1", "Kata 6\SPA-Study\SpaStudyWithDurandal1\SpaStudyWithDurandal1.csproj", "{B373984A-4734-43FC-A9B2-87BF33A847B2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InharitanceInEfBehaviorStudy", "InharitanceInEfBehaviorStudy", "{334110BB-733F-4CD9-AFE7-0DFE0D13CF51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfInheritanceBehavior", "Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\EfInheritanceBehavior.csproj", "{11E63692-783D-4469-9F84-7E0B4C3AC8DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -251,6 +255,16 @@ Global
 		{B373984A-4734-43FC-A9B2-87BF33A847B2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{B373984A-4734-43FC-A9B2-87BF33A847B2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B373984A-4734-43FC-A9B2-87BF33A847B2}.Release|x86.ActiveCfg = Release|Any CPU
+		{11E63692-783D-4469-9F84-7E0B4C3AC8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E63692-783D-4469-9F84-7E0B4C3AC8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E63692-783D-4469-9F84-7E0B4C3AC8DD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{11E63692-783D-4469-9F84-7E0B4C3AC8DD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{11E63692-783D-4469-9F84-7E0B4C3AC8DD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{11E63692-783D-4469-9F84-7E0B4C3AC8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E63692-783D-4469-9F84-7E0B4C3AC8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E63692-783D-4469-9F84-7E0B4C3AC8DD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{11E63692-783D-4469-9F84-7E0B4C3AC8DD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{11E63692-783D-4469-9F84-7E0B4C3AC8DD}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -283,6 +297,8 @@ Global
 		{E1EB8E0C-AFDB-4D41-B2A2-D8779CCE3BFE} = {41D2C1A9-C155-429E-8B51-4A8BBA7B5D98}
 		{60FA5750-09F5-45C2-94F6-6B525BF244B9} = {41D2C1A9-C155-429E-8B51-4A8BBA7B5D98}
 		{2893A47D-B1D9-4AF2-BD1C-1A08563807F9} = {948382DF-E9F2-454D-888D-E5535F420C3A}
+		{334110BB-733F-4CD9-AFE7-0DFE0D13CF51} = {948382DF-E9F2-454D-888D-E5535F420C3A}
 		{B373984A-4734-43FC-A9B2-87BF33A847B2} = {2893A47D-B1D9-4AF2-BD1C-1A08563807F9}
+		{11E63692-783D-4469-9F84-7E0B4C3AC8DD} = {334110BB-733F-4CD9-AFE7-0DFE0D13CF51}
 	EndGlobalSection
 EndGlobal

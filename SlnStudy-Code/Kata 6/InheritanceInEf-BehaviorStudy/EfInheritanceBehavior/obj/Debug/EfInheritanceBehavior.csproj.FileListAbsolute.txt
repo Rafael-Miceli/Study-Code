@@ -1,0 +1,11 @@
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EfInheritanceBehavior.exe.config
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EfInheritanceBehavior.exe
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EfInheritanceBehavior.pdb
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\obj\Debug\EfInheritanceBehavior.csprojResolveAssemblyReference.cache
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\obj\Debug\EfInheritanceBehavior.exe
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\obj\Debug\EfInheritanceBehavior.pdb
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EntityFramework.dll
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EntityFramework.xml
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\System.Data.SqlClient.dll
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EntityFramework.SqlServer.xml

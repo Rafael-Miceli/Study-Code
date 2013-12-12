@@ -9,3 +9,4 @@ C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\Composit
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePatternWithTDD\ConsoleAppCompositeClub\bin\Debug\ConsoleAppCompositeClub.pdb
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePatternWithTDD\ConsoleAppCompositeClub\obj\Debug\ConsoleAppCompositeClub.exe
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePatternWithTDD\ConsoleAppCompositeClub\obj\Debug\ConsoleAppCompositeClub.pdb
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePatternWithTDD\ConsoleAppCompositeClub\obj\Debug\ConsoleAppCompositeClub.csprojResolveAssemblyReference.cache

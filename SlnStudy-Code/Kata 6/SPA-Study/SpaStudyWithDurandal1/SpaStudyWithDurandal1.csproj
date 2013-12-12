@@ -102,6 +102,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\dataservice.js" />
     <Content Include="App\durandal\amd\almond-custom.js" />
     <Content Include="App\durandal\amd\optimizer.exe" />
     <Content Include="App\durandal\amd\r.js" />
@@ -227,7 +228,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\jquery-2.0.3.min.map" />
     <None Include="_bin_deployableAssemblies\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
     <None Include="_bin_deployableAssemblies\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
