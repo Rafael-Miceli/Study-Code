@@ -72,7 +72,7 @@ namespace EfInheritanceBehavior
 
             var checkinTool4 = new CheckinTool
             {
-                Holder = _context.Companies.Find(2),
+                Holder = _context.Companies.Find(4),
                 CheckinDateTime = DateTime.Parse("10/12/2013"),
                 Tool = _context.Tools.Find(1)
             };

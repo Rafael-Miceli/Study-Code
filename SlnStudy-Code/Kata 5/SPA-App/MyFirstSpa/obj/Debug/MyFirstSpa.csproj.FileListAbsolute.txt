@@ -224,3 +224,7 @@ C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\MyFirstSpa\obj\Debug\MyFirstSpa.csprojResolveAssemblyReference.cache
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\MyFirstSpa\obj\Debug\MyFirstSpa.dll
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\MyFirstSpa\obj\Debug\MyFirstSpa.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\MyFirstSpa\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\MyFirstSpa\bin\Mono.Math.dll
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\MyFirstSpa\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 5\SPA-App\MyFirstSpa\bin\Mono.Math.xml

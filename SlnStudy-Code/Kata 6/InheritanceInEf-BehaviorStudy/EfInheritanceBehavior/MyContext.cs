@@ -40,11 +40,13 @@ namespace EfInheritanceBehavior
         public virtual string Name { get; set; }
     }
 
+    [Table("Company")]
     public class Company: Holder
     {
         public virtual string City { get; set; }
     }
 
+    [Table("Employee")]
     public class Employee: Holder
     {
         public virtual string Phone { get; set; }

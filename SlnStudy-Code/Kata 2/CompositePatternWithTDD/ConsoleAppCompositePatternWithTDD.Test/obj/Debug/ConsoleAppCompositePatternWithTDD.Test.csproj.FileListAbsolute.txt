@@ -8,3 +8,8 @@ C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\Composit
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\CompositePatternWithTDD\ConsoleAppCompositePatternWithTDD.Test\obj\Debug\ConsoleAppCompositePatternWithTDD.Test.csprojResolveAssemblyReference.cache
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\CompositePatternWithTDD\ConsoleAppCompositePatternWithTDD.Test\obj\Debug\ConsoleAppVisitorPatternWithTDD.Test.dll
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\CompositePatternWithTDD\ConsoleAppCompositePatternWithTDD.Test\obj\Debug\ConsoleAppVisitorPatternWithTDD.Test.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\CompositePatternWithTDD\ConsoleAppCompositePatternWithTDD.Test\bin\Debug\ConsoleAppVisitorPatternWithTDD.Test.dll
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\CompositePatternWithTDD\ConsoleAppCompositePatternWithTDD.Test\bin\Debug\ConsoleAppVisitorPatternWithTDD.Test.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\CompositePatternWithTDD\ConsoleAppCompositePatternWithTDD.Test\obj\Debug\ConsoleAppCompositePatternWithTDD.Test.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\CompositePatternWithTDD\ConsoleAppCompositePatternWithTDD.Test\obj\Debug\ConsoleAppVisitorPatternWithTDD.Test.dll
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 2\CompositePatternWithTDD\ConsoleAppCompositePatternWithTDD.Test\obj\Debug\ConsoleAppVisitorPatternWithTDD.Test.pdb

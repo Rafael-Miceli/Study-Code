@@ -9,3 +9,13 @@ C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\Inherita
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\System.Data.SqlClient.dll
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EfInheritanceBehavior.exe.config
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\obj\Debug\EfInheritanceBehavior.exe
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\obj\Debug\EfInheritanceBehavior.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EfInheritanceBehavior.exe
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EfInheritanceBehavior.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EntityFramework.dll
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EntityFramework.xml
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\InheritanceInEf-BehaviorStudy\EfInheritanceBehavior\obj\Debug\EfInheritanceBehavior.csprojResolveAssemblyReference.cache

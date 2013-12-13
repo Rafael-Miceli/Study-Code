@@ -10,3 +10,9 @@ C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\VisitorP
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\VisitorPattern\ConsoleAppVisitorPatternEmailSender\obj\Debug\ConsoleAppVisitorPatternEmailSender.csprojResolveAssemblyReference.cache
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\VisitorPattern\ConsoleAppVisitorPatternEmailSender\obj\Debug\ConsoleAppVisitorPatternEmailSender.exe
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\VisitorPattern\ConsoleAppVisitorPatternEmailSender\obj\Debug\ConsoleAppVisitorPatternEmailSender.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\VisitorPattern\ConsoleAppVisitorPatternEmailSender\bin\Debug\ConsoleAppVisitorPatternEmailSender.exe.config
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\VisitorPattern\ConsoleAppVisitorPatternEmailSender\bin\Debug\ConsoleAppVisitorPatternEmailSender.exe
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\VisitorPattern\ConsoleAppVisitorPatternEmailSender\bin\Debug\ConsoleAppVisitorPatternEmailSender.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\VisitorPattern\ConsoleAppVisitorPatternEmailSender\obj\Debug\ConsoleAppVisitorPatternEmailSender.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\VisitorPattern\ConsoleAppVisitorPatternEmailSender\obj\Debug\ConsoleAppVisitorPatternEmailSender.exe
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\VisitorPattern\ConsoleAppVisitorPatternEmailSender\obj\Debug\ConsoleAppVisitorPatternEmailSender.pdb

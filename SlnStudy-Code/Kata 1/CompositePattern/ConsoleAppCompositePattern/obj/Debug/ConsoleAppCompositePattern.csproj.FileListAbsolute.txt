@@ -13,3 +13,6 @@ C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\Composit
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePattern\ConsoleAppCompositePattern\obj\Debug\ConsoleAppCompositePattern.csprojResolveAssemblyReference.cache
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePattern\ConsoleAppCompositePattern\obj\Debug\ConsoleAppCompositePattern.exe
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePattern\ConsoleAppCompositePattern\obj\Debug\ConsoleAppCompositePattern.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePattern\ConsoleAppCompositePattern\bin\Debug\ConsoleAppCompositePattern.exe
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePattern\ConsoleAppCompositePattern\bin\Debug\ConsoleAppCompositePattern.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 1\CompositePattern\ConsoleAppCompositePattern\obj\Debug\ConsoleAppCompositePattern.csprojResolveAssemblyReference.cache
