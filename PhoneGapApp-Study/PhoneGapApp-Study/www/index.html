@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<!--
+       Licensed to the Apache Software Foundation (ASF) under one
+       or more contributor license agreements.  See the NOTICE file
+       distributed with this work for additional information
+       regarding copyright ownership.  The ASF licenses this file
+       to you under the Apache License, Version 2.0 (the
+       "License"); you may not use this file except in compliance
+       with the License.  You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+       Unless required by applicable law or agreed to in writing,
+       software distributed under the License is distributed on an
+       "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+       KIND, either express or implied.  See the License for the
+       specific language governing permissions and limitations
+       under the License.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <!--<link rel="stylesheet" type="text/css" href="css/index.css" />-->
+        <link href="css/jquery.mobile.icons-1.4.0.css" rel="stylesheet" />
+        <link href="css/jquery.mobile-1.4.0.css" rel="stylesheet" />
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.mobile-1.4.0.js"></script>
+        <title>Hello World</title>
+    </head>
+    <body>
+        <!--Don't know why, but inline is the only way the style of the selected button is been applied-->
+
+        <div id="materials" data-role="page">
+            <div data-role="header">
+                <h1>Matérias</h1>
+            </div>
+            
+            <div role="main" class="ui-content">
+                <a href="#registermaterial" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left ui-btn-a ui-btn-inline">cadastrar matéria</a>
+            </div>
+
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a href="#materials" style="background-color: #3388cc; border-color: #3388cc; color: #fff; text-shadow: 0 1px oldlace #005599;" data-icon="bullets">Matérias</a>
+                        </li>
+                        <li>
+                            <a href="#grades" data-icon="check">Notas</a>
+                        </li>
+                        <li>
+                            <a href="#Cr" data-icon="recycle">Cálculo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div id="grades" data-role="page">
+            <div data-role="header">
+                <h1>Notas</h1>
+            </div>
+
+            <div role="main" class="ui-content">
+                <a href="#registergrade" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left ui-btn-a ui-btn-inline">cadastrar nota</a>
+            </div>
+
+            <div data-role="footer" data-position="fixed" >
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a href="#materials" data-icon="bullets">Matérias</a>
+                        </li>
+                        <li>
+                            <a href="#grades" style="background-color: #3388cc; border-color: #3388cc; color: #fff; text-shadow: 0 1px oldlace #005599;" data-icon="check">Notas</a>
+                        </li>
+                        <li>
+                            <a href="#Cr" data-icon="recycle">Cálculo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="Cr" data-role="page">
+            <div data-role="header">
+                <h1>Cr</h1>
+            </div>
+
+            <div role="main" class="ui-content">
+                <h3>Seu Cr é: </h3>
+            </div>
+
+            <div data-role="footer" data-position="fixed" >
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a href="#materials" data-icon="bullets">Matérias</a>
+                        </li>
+                        <li>
+                            <a href="#grades" data-icon="check">Notas</a>
+                        </li>
+                        <li>
+                            <a href="#Cr" style="background-color: #3388cc; border-color: #3388cc; color: #fff; text-shadow: 0 1px oldlace #005599;" data-icon="recycle">Cálculo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div id="registermaterial" data-role="page">
+            <div data-role="header">
+                <a class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-delete" href="#materials">Cancelar</a>
+                <h1></h1>
+                <button id="saveMaterial" class="ui-btn-right ui-btn ui-btn-a ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-check">Cadastrar</button>
+            </div>
+            <br/>
+            <form>
+                <label for="materialName">Nome da Matéria</label>
+                <input name="materialName" id="materialName" type="text" value="" data-clear-btn="true">
+                <label for="weight">Peso</label>
+                <input name="weight" id="weight" type="number" pattern="[1-9]*" value="1" data-clear-btn="true">
+            </form>
+        </div>
+        
+        <div id="registergrade" data-role="page">
+            <div data-role="header">
+                <a class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-delete" href="#grades">Cancelar</a>
+                <h1></h1>
+                <button id="saveGrade" class="ui-btn-right ui-btn ui-btn-a ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-check">Cadastrar</button>
+            </div>
+            <br />
+            <form>
+                <label for="grade">Nota</label>
+                <input name="grade" id="grade" type="number" pattern="[1-9]*" value="1" data-clear-btn="false">
+            </form>
+        </div>
+
+        <!--</div>-->
+        <!--<div class="app">
+            <h1>Apache Cordova</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>-->
+    </body>
+</html>
