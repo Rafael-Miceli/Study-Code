@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppCompositePattern", "Kata 1\CompositePattern\ConsoleAppCompositePattern\ConsoleAppCompositePattern.csproj", "{DAA9509C-E2E7-4980-8EA1-9D1956818A8A}"
 EndProject
@@ -78,6 +78,38 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TimeZoneInfoStudy", "TimeZoneInfoStudy", "{2DFAB4E0-2FF4-402A-BABE-9AEC0445263F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppTimeZoneInfoStudy", "Kata 6\ConsoleAppTimeZoneInfoStudy\ConsoleAppTimeZoneInfoStudy.csproj", "{76B20E37-369D-4AEC-BA67-A807578E502F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work Kata", "Work Kata", "{53B74E97-A254-4B82-B658-05C09591F7B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppDownloadTextFileFromGridView", "Work Kata\WebAppDownloadTextFileFromGridView\WebAppDownloadTextFileFromGridView.csproj", "{83A2F6BD-9284-4DFB-AF4A-0623B8211BEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadTextFileFromGridView", "Work Kata\DownloadTextFileFromGridView\DownloadTextFileFromGridView.csproj", "{4E848710-704E-48B2-8A71-4D6B4832E941}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "EmptyWebSiteDownloadTextFileFromGridView", "http://localhost:6582", "{2E4ABFFF-4CEA-490A-A090-9040C58DDEBF}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_6582"
+		Debug.AspNetCompiler.PhysicalPath = "Work Kata\EmptyWebSiteDownloadTextFileFromGridView\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6582\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_6582"
+		Release.AspNetCompiler.PhysicalPath = "Work Kata\EmptyWebSiteDownloadTextFileFromGridView\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6582\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Work Kata\EmptyWebSiteDownloadTextFileFromGridView\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JavascriptStudy-To-MobileApp", "JavascriptStudy-To-MobileApp", "{80CF7ED8-39FA-4F38-AE0E-4D7910DADF7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyWebApp-JavascriptStudy-To-MobileApp", "Kata 6\EmptyWebApp-JavascriptStudy-To-MobileApp\EmptyWebApp-JavascriptStudy-To-MobileApp.csproj", "{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -279,6 +311,46 @@ Global
 		{76B20E37-369D-4AEC-BA67-A807578E502F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{76B20E37-369D-4AEC-BA67-A807578E502F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{76B20E37-369D-4AEC-BA67-A807578E502F}.Release|x86.ActiveCfg = Release|Any CPU
+		{83A2F6BD-9284-4DFB-AF4A-0623B8211BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A2F6BD-9284-4DFB-AF4A-0623B8211BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A2F6BD-9284-4DFB-AF4A-0623B8211BEB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{83A2F6BD-9284-4DFB-AF4A-0623B8211BEB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{83A2F6BD-9284-4DFB-AF4A-0623B8211BEB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{83A2F6BD-9284-4DFB-AF4A-0623B8211BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A2F6BD-9284-4DFB-AF4A-0623B8211BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A2F6BD-9284-4DFB-AF4A-0623B8211BEB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{83A2F6BD-9284-4DFB-AF4A-0623B8211BEB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{83A2F6BD-9284-4DFB-AF4A-0623B8211BEB}.Release|x86.ActiveCfg = Release|Any CPU
+		{4E848710-704E-48B2-8A71-4D6B4832E941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E848710-704E-48B2-8A71-4D6B4832E941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E848710-704E-48B2-8A71-4D6B4832E941}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4E848710-704E-48B2-8A71-4D6B4832E941}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4E848710-704E-48B2-8A71-4D6B4832E941}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4E848710-704E-48B2-8A71-4D6B4832E941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E848710-704E-48B2-8A71-4D6B4832E941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E848710-704E-48B2-8A71-4D6B4832E941}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4E848710-704E-48B2-8A71-4D6B4832E941}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4E848710-704E-48B2-8A71-4D6B4832E941}.Release|x86.ActiveCfg = Release|Any CPU
+		{2E4ABFFF-4CEA-490A-A090-9040C58DDEBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4ABFFF-4CEA-490A-A090-9040C58DDEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4ABFFF-4CEA-490A-A090-9040C58DDEBF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2E4ABFFF-4CEA-490A-A090-9040C58DDEBF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2E4ABFFF-4CEA-490A-A090-9040C58DDEBF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2E4ABFFF-4CEA-490A-A090-9040C58DDEBF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4ABFFF-4CEA-490A-A090-9040C58DDEBF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2E4ABFFF-4CEA-490A-A090-9040C58DDEBF}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2E4ABFFF-4CEA-490A-A090-9040C58DDEBF}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2E4ABFFF-4CEA-490A-A090-9040C58DDEBF}.Release|x86.ActiveCfg = Debug|Any CPU
+		{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -313,8 +385,13 @@ Global
 		{2893A47D-B1D9-4AF2-BD1C-1A08563807F9} = {948382DF-E9F2-454D-888D-E5535F420C3A}
 		{334110BB-733F-4CD9-AFE7-0DFE0D13CF51} = {948382DF-E9F2-454D-888D-E5535F420C3A}
 		{2DFAB4E0-2FF4-402A-BABE-9AEC0445263F} = {948382DF-E9F2-454D-888D-E5535F420C3A}
+		{80CF7ED8-39FA-4F38-AE0E-4D7910DADF7D} = {948382DF-E9F2-454D-888D-E5535F420C3A}
 		{B373984A-4734-43FC-A9B2-87BF33A847B2} = {2893A47D-B1D9-4AF2-BD1C-1A08563807F9}
 		{11E63692-783D-4469-9F84-7E0B4C3AC8DD} = {334110BB-733F-4CD9-AFE7-0DFE0D13CF51}
 		{76B20E37-369D-4AEC-BA67-A807578E502F} = {2DFAB4E0-2FF4-402A-BABE-9AEC0445263F}
+		{83A2F6BD-9284-4DFB-AF4A-0623B8211BEB} = {53B74E97-A254-4B82-B658-05C09591F7B4}
+		{4E848710-704E-48B2-8A71-4D6B4832E941} = {53B74E97-A254-4B82-B658-05C09591F7B4}
+		{2E4ABFFF-4CEA-490A-A090-9040C58DDEBF} = {53B74E97-A254-4B82-B658-05C09591F7B4}
+		{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D} = {80CF7ED8-39FA-4F38-AE0E-4D7910DADF7D}
 	EndGlobalSection
 EndGlobal

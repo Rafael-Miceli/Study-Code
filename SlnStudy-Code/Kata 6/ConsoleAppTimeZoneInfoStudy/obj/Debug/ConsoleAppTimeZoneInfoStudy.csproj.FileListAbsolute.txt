@@ -4,3 +4,9 @@ C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\ConsoleAppTimeZ
 C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\ConsoleAppTimeZoneInfoStudy\obj\Debug\ConsoleAppTimeZoneInfoStudy.csprojResolveAssemblyReference.cache
 C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\ConsoleAppTimeZoneInfoStudy\obj\Debug\ConsoleAppTimeZoneInfoStudy.exe
 C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\ConsoleAppTimeZoneInfoStudy\obj\Debug\ConsoleAppTimeZoneInfoStudy.pdb
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\ConsoleAppTimeZoneInfoStudy\bin\Debug\ConsoleAppTimeZoneInfoStudy.exe.config
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\ConsoleAppTimeZoneInfoStudy\obj\Debug\ConsoleAppTimeZoneInfoStudy.exe
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\ConsoleAppTimeZoneInfoStudy\obj\Debug\ConsoleAppTimeZoneInfoStudy.pdb
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\ConsoleAppTimeZoneInfoStudy\bin\Debug\ConsoleAppTimeZoneInfoStudy.exe
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\ConsoleAppTimeZoneInfoStudy\bin\Debug\ConsoleAppTimeZoneInfoStudy.pdb
+C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\ConsoleAppTimeZoneInfoStudy\obj\Debug\ConsoleAppTimeZoneInfoStudy.csprojResolveAssemblyReference.cache

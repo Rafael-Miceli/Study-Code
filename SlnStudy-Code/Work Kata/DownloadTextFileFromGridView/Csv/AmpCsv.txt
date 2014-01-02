@@ -1,0 +1,11 @@
+Data Aprovação;Nº Incidente;Matrícula;Nome;Unidade Atual;CC Atual;Cargo Atual;Classe;Estrato Atual;Salário Atual;Unidade Proposta;CC Proposto;Cargo Proposto;Classe Proposta;Estrato Proposto;Salário Proposto;% Reajuste;Tipo de Movimentacao;
+13/10/2011 14:36;109;776;ADALTO MANTOVANI;ARAUCARIA;38000;AJUD MOTORISTA AUTO TANQUE;PS02;Operacional;1150,8000;;          ;;;;1288,9000;12        ;Incorporação;
+13/10/2011 14:47;110;776;ADALTO MANTOVANI;ARAUCARIA;38000;AJUD MOTORISTA AUTO TANQUE;PS02;Operacional;1150,8000;;          ;;;;1288,9000;12        ;Incorporação;
+13/10/2011 19:01;114;776;ADALTO MANTOVANI;ARAUCARIA;38000;AJUD MOTORISTA AUTO TANQUE;PS02;Operacional;1150,8000;;          ;AJUD MOTORISTA AUTO TANQUE;PS02;Operacional;1288,9000;12        ;Promoção (mudança de cargo e aumento de salário);
+14/10/2011 12:30;115;776;ADALTO MANTOVANI;ARAUCARIA;38000;AJUD MOTORISTA AUTO TANQUE;PS02;Operacional;1150,8000;;          ;;;;1288,9000;12        ;Mérito (só aumento salário);
+13/10/2011 14:36;109;100;JOSE DA SILVA MEDEIROS;CPO GRANDE RJ;31000;AJUD MOTORISTA;PS05;Operacional;2894,0000;;0         ;AJUD MOTORISTA;PS05;Operacional;3183,4000;10        ;Promoção (mudança de cargo e aumento de salário);
+13/10/2011 14:47;110;100;JOSE DA SILVA MEDEIROS;CPO GRANDE RJ;31000;AJUD MOTORISTA;PS05;Operacional;2894,0000;;0         ;AJUD MOTORISTA;PS05;Operacional;3183,4000;10        ;Promoção (mudança de cargo e aumento de salário);
+14/10/2011 12:33;111;100;JOSE DA SILVA MEDEIROS;CPO GRANDE RJ;31000;AJUD MOTORISTA;PS05;Operacional;2894,0000;;0         ;AJUD MOTORISTA;PS05;Operacional;3255,7500;12,5      ;Promoção (mudança de cargo e aumento de salário);
+13/10/2011 18:10;113;100;JOSE DA SILVA MEDEIROS;CPO GRANDE RJ;31000;AJUD MOTORISTA;PS05;Operacional;2894,0000;JACAREZINHO;54000     ;ANL CONTABIL PL;12   ;Técnico;3168,9300;9,5       ;Transferência com promoção;
+13/10/2011 19:01;114;100;JOSE DA SILVA MEDEIROS;CPO GRANDE RJ;31000;AJUD MOTORISTA;PS05;Operacional;2894,0000;;0         ;GER DESENV SISTEMAS;17   ;Gerencial;3617,5000;25        ;Promoção (mudança de cargo e aumento de salário);
+14/10/2011 12:30;115;100;JOSE DA SILVA MEDEIROS;CPO GRANDE RJ;31000;AJUD MOTORISTA;PS05;Operacional;2894,0000;;0         ;;;;3183,4000;10        ;Mérito (só aumento salário);
