@@ -18,23 +18,47 @@
         };
 
         $(function () {
-            var subjectDip = new Subject();
-            subjectDip.Name = "DIP";
-            subjectDip.Weight = 2;
-            
-            var subjectEda = new Subject();
-            subjectEda.Name = "EDA";
-            subjectEda.Weight = 2;
-            
-            var subjectDipr = new Subject();
-            subjectDipr.Name = "DIPR";
-            subjectDipr.Weight = 4;
-
-
-            var Subjects = [subjectDip, subjectDipr, subjectEda];
             
 
-            document.write(JSON.stringify(Subjects))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            //var subjectDip = new Subject();
+            //subjectDip.Name = "DIP";
+            //subjectDip.Weight = 2;
+            
+            //var subjectEda = new Subject();
+            //subjectEda.Name = "EDA";
+            //subjectEda.Weight = 2;
+            
+            //var subjectDipr = new Subject();
+            //subjectDipr.Name = "DIPR";
+            //subjectDipr.Weight = 4;
+
+
+            //var Subjects = [subjectDip, subjectDipr, subjectEda];
+
+            //var text = JSON.stringify(Subjects);
+            //document.write(text);
+
+            //var subjectsFromJson = JSON.parse(text);
+
+            //for (var i in subjectsFromJson) {
+            //    document.write('<br>');
+            //    document.write(subjectsFromJson[i].Name);
+            //}
 
 
             //$('#cadastrar').click(
