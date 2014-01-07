@@ -7,6 +7,9 @@
     <title></title>
     <script src="jquery-1.8.2.js"></script>
     <script>
+
+        var _subjects = 'DIP';
+
         var Subject = function() {
             var Name = Name,
                 Weight = Weight;
@@ -17,54 +20,90 @@
             };
         };
 
+        var SubjectList = function() {
+            var Subjects = [];
+
+            function addSubject(subject) {
+                Subjects.push(subject);
+                _subjects = JSON.stringify(Subjects);
+            }
+
+            function findSubject(subjectName) {
+                for (var subjectIndex in Subjects) {
+                    if (Subjects[subjectIndex].Name === subjectName) {
+                        return subjectIndex;
+                    }
+                }
+            }
+
+            function removeSubject(subjectName) {
+                var subjectIndex = findSubject(subjectName);
+                if (subjectIndex) {
+                    Subjects.splice(subjectIndex, 1);
+                    _subjects = JSON.stringify(Subjects);
+                    return true;
+                }
+            }
+            
+            function listSubjects() {
+                var subjects = JSON.parse(_subjects);
+                for (var subjectIndex in subjects) {
+                    document.writeln(subjects[subjectIndex].Name);
+                }
+            }
+
+            return {
+                Subjects: Subjects,
+                Add: addSubject,
+                Remove: removeSubject,
+                Find: findSubject,
+                List: listSubjects
+            };
+        };
+
+        var subjectList = new SubjectList();
+
+        function tryParseLocalValue() {
+            try {
+                subjectList.Subjects = JSON.parse(_subjects);
+            } catch (e) {
+                _subjects = '[]';
+                subjectList.Subjects = JSON.parse(_subjects);
+            }
+        }    
+
         $(function () {
+
+            var subjectDip = new Subject();
+            subjectDip.Name = 'DIP';
+            subjectDip.Weight = 2;
+            
+            var subjectDipr = new Subject();
+            subjectDipr.Name = 'DIPR';
+            subjectDipr.Weight = 2;
+            
+            var subjectEda = new Subject();
+            subjectEda.Name = 'EDA';
+            subjectEda.Weight = 4;
+            
+            tryParseLocalValue();
+
+            subjectList.Add(subjectDip);
+            subjectList.Add(subjectDipr);
+            subjectList.Add(subjectEda);
+
+            subjectList.List();
+
+            if (subjectList.Remove('DIP')) {
+                document.writeln('Removido');
+            } else {
+                document.writeln('Não removido');
+            }
+            
+            subjectList.List();
             
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            //var subjectDip = new Subject();
-            //subjectDip.Name = "DIP";
-            //subjectDip.Weight = 2;
-            
-            //var subjectEda = new Subject();
-            //subjectEda.Name = "EDA";
-            //subjectEda.Weight = 2;
-            
-            //var subjectDipr = new Subject();
-            //subjectDipr.Name = "DIPR";
-            //subjectDipr.Weight = 4;
-
-
-            //var Subjects = [subjectDip, subjectDipr, subjectEda];
-
-            //var text = JSON.stringify(Subjects);
-            //document.write(text);
-
-            //var subjectsFromJson = JSON.parse(text);
-
-            //for (var i in subjectsFromJson) {
-            //    document.write('<br>');
-            //    document.write(subjectsFromJson[i].Name);
-            //}
-
-
-            //$('#cadastrar').click(
-            //    function() {
-
-            //    });
+           
         });
 
     </script>
