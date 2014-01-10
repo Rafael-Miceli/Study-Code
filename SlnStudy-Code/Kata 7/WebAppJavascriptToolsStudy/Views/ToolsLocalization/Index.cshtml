@@ -1,0 +1,30 @@
+﻿@model WebAppJavascriptToolsStudy.Models.ToolsLocalizationModel
+           
+<link href="../../Content/Site.css" rel="stylesheet"/>
+
+<h2>title</h2>
+
+<table class="Grid">
+    <tr>
+        <th>
+            <input type="checkbox" /> All
+        </th>
+        <th>
+            Nome
+        </th>
+    </tr>
+
+    @foreach (var toolsLocalization in Model.ToolsLocalizations)
+    {
+        <tr>
+            <td>
+                <input type="checkbox" value="@toolsLocalization.Id" />
+            </td>
+            <td>
+                @toolsLocalization.Name
+            </td>
+        </tr>
+        
+    }
+</table>
+

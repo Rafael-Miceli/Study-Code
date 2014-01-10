@@ -111,6 +111,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JavascriptStudy-To-MobileAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyWebApp-JavascriptStudy-To-MobileApp", "Kata 6\EmptyWebApp-JavascriptStudy-To-MobileApp\EmptyWebApp-JavascriptStudy-To-MobileApp.csproj", "{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kata7", "Kata7", "{5407DFD1-712A-454C-A293-485615694CDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppJavascriptToolsStudy", "Kata 7\WebAppJavascriptToolsStudy\WebAppJavascriptToolsStudy.csproj", "{B857D91C-C1A9-44E4-B8C6-43BDA48503A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -351,6 +355,16 @@ Global
 		{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D}.Release|x86.ActiveCfg = Release|Any CPU
+		{B857D91C-C1A9-44E4-B8C6-43BDA48503A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B857D91C-C1A9-44E4-B8C6-43BDA48503A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B857D91C-C1A9-44E4-B8C6-43BDA48503A4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B857D91C-C1A9-44E4-B8C6-43BDA48503A4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B857D91C-C1A9-44E4-B8C6-43BDA48503A4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B857D91C-C1A9-44E4-B8C6-43BDA48503A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B857D91C-C1A9-44E4-B8C6-43BDA48503A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B857D91C-C1A9-44E4-B8C6-43BDA48503A4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B857D91C-C1A9-44E4-B8C6-43BDA48503A4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B857D91C-C1A9-44E4-B8C6-43BDA48503A4}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -393,5 +407,6 @@ Global
 		{4E848710-704E-48B2-8A71-4D6B4832E941} = {53B74E97-A254-4B82-B658-05C09591F7B4}
 		{2E4ABFFF-4CEA-490A-A090-9040C58DDEBF} = {53B74E97-A254-4B82-B658-05C09591F7B4}
 		{CDBDC26C-DA44-4084-AEDB-7F202A54CB7D} = {80CF7ED8-39FA-4F38-AE0E-4D7910DADF7D}
+		{B857D91C-C1A9-44E4-B8C6-43BDA48503A4} = {5407DFD1-712A-454C-A293-485615694CDF}
 	EndGlobalSection
 EndGlobal
