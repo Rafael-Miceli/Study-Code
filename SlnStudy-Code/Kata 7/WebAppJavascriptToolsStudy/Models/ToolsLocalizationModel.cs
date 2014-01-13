@@ -2,59 +2,31 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace WebAppJavascriptToolsStudy.Models
 {
-    public class ToolsLocalizationModel
+    public class EditCompaies
     {
+        public IList<SelectListItem> ToolsLocalizationsWithCompany { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public ICollection<ToolsLocalization> ToolsLocalizations { get; set; }
 
-        public List<ToolsLocalization> ToolsLocalizations;
 
-        public ToolsLocalizationModel()
+        public EditCompaies()
         {
-            ToolsLocalizations = new List<ToolsLocalization>
+            ToolsLocalizations = ModelsRepository.ToolsLocalizations;
+
+            var toolsLocalizationsWithCompany = new List<SelectListItem>();
+
+            foreach (var toolsLocalization in ToolsLocalizations)
             {
-                new ToolsLocalization
+                toolsLocalizationsWithCompany.Add(new SelectListItem
                 {
-                    Id = 1,
-                    Name = "Portão de garagem"
-                },
-                new ToolsLocalization
-                {
-                    Id = 2,
-                    Name = "Portão de pedestres"
-                },
-                new ToolsLocalization
-                {
-                    Id = 3,
-                    Name = "Hall de visitantes"
-                },
-                new ToolsLocalization
-                {
-                    Id = 4,
-                    Name = "Portão de Moradores"
-                },
-                new ToolsLocalization
-                {
-                    Id = 5,
-                    Name = "Entrada de Veículos"
-                },
-                new ToolsLocalization
-                {
-                    Id = 6,
-                    Name = "P1"
-                },
-                new ToolsLocalization
-                {
-                    Id = 7,
-                    Name = "P2"
-                },
-                new ToolsLocalization
-                {
-                    Id = 8,
-                    Name = "P3"
-                }
-            };
+                    Selected = 
+                });
+            }
         }
 
         
@@ -66,5 +38,13 @@ namespace WebAppJavascriptToolsStudy.Models
 
         public int Id { get; set; }
         public string Name { get; set; }
+        public ICollection<Company> Companies { get; set; }
+    }
+
+    public class Company
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public ICollection<ToolsLocalization> ToolsLocalizations { get; set; }
     }
 }

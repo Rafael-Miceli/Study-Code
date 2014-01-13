@@ -1,4 +1,5 @@
-﻿@model WebAppJavascriptToolsStudy.Models.ToolsLocalizationModel
+﻿@using System.Reflection.Emit
+@model WebAppJavascriptToolsStudy.Models.EditCompaies
            
 <link href="../../Content/Site.css" rel="stylesheet"/>
 <script src="~/Scripts/jquery-2.0.3.js"></script>
@@ -9,9 +10,8 @@
 <script src="~/Scripts/bootstrap.js"></script>
 
 <script>
-    $(function () {
+    $(function() {
         var pagerOptions = {
-
             // target the pager markup - see the HTML block below
             container: $(".pager"),
 
@@ -19,11 +19,11 @@
             ajaxUrl: null,
 
             // modify the url after all processing has been applied
-            customAjaxUrl: function (table, url) { return url; },
+            customAjaxUrl: function(table, url) { return url; },
 
             // process ajax so that the data object is returned along with the total number of rows
             // example: { "data" : [{ "ID": 1, "Name": "Foo", "Last": "Bar" }], "total_rows" : 100 }
-            ajaxProcessing: function (ajax) {
+            ajaxProcessing: function(ajax) {
                 if (ajax && ajax.hasOwnProperty('data')) {
                     // return [ "data", "total_rows" ];
                     return [ajax.total_rows, ajax.data];
@@ -67,46 +67,45 @@
             // class added to arrows when at the extremes (i.e. prev/first arrows are "disabled" when on the first page)
             cssDisabled: 'disabled', // Note there is no period "." in front of this class name
             cssErrorRow: 'tablesorter-errorRow' // ajax error information row
-
         };
 
 
-
-
-        $("#table").tablesorter({ widgets: ['filter'] }).bind('pagerChange pagerComplete pagerInitialized pageMoved', function (e, c) {
+        $("#table").tablesorter({ widgets: ['filter'] }).bind('pagerChange pagerComplete pagerInitialized pageMoved', function(e, c) {
             var msg = '"</span> event triggered, ' + (e.type === 'pagerChange' ? 'going to' : 'now on') +
-              ' page <span class="typ">' + (c.page + 1) + '/' + c.totalPages + '</span>';
+                ' page <span class="typ">' + (c.page + 1) + '/' + c.totalPages + '</span>';
             $('#display')
-              .append('<li><span class="str">"' + e.type + msg + '</li>')
-              .find('li:first').remove();
+                .append('<li><span class="str">"' + e.type + msg + '</li>')
+                .find('li:first').remove();
         }).tablesorterPager(pagerOptions);
-    });
+        
 
+        //$('#submit').click(function () {
 
-    $('#submit').click(function() {
-        var checkboxesIDs = $("#table input:checkbox:checked").map(function () {
-            return $(this).val();
-        }).get();
+        //    var checkboxesIDs = $("#table input:checkbox:checked").map(function () {
+        //        return $(this).val();
+        //    }).get();
 
-        alert(checkboxesIDs);
+        //    alert(checkboxesIDs);
+        //});
     });
 
 </script>
 
 <h2>title</h2>
-
-<table id="table" class="table table-striped table-bordered table-hover table-condensed">
-    <thead>
-        <tr>
-            <th class="filter-false sorter-false" style=" width: 15px;">
-            </th>
-            <th>
-                Nome
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var toolsLocalization in Model.ToolsLocalizations)
+@using (Html.BeginForm("Index", "ToolsLocalization", FormMethod.Post))
+{
+    <table id="table" class="table table-striped table-bordered table-hover table-condensed">
+        <thead>
+            <tr>
+                <th class="filter-false sorter-false" style="width: 15px;">
+                </th>
+                <th>
+                    Nome
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @*@foreach (var toolsLocalization in Model.ToolsLocalizations)
         {
             <tr>
                 <td>
@@ -117,25 +116,39 @@
                 </td>
             </tr>
 
-        }
-    </tbody>
-</table>
+        }*@
+        
+            @for (var i = 0; i < Model.ToolsLocalizations.Count; i++)
+            {
+                <tr>
+                    <td>
+                        @Html.HiddenFor(tlId => tlId.ToolsLocalizations[i].Id)
+                        @Html.CheckBoxFor()
+                    </td>
+                    <td>
+                        @Html.LabelFor(tlName => tlName.ToolsLocalizations[i].Name)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 
-<div id="pager" class="pager">
-    <form>
-        <img src="first.png" class="first" />
-        <img src="prev.png" class="prev" />
-        <span class="pagedisplay"></span> <!-- this can be any element, including an input -->
-        <img src="next.png" class="next" />
-        <img src="last.png" class="last" />
-        <select class="pagesize">
-            <option selected="selected" value="5">5</option>
-            <option value="20">20</option>
-            <option value="30">30</option>
-            <option value="40">40</option>
-        </select>
-    </form>
-</div>
+    <div id="pager" class="pager">
+        <form>
+            <img src="first.png" class="first" />
+            <img src="prev.png" class="prev" />
+            <span class="pagedisplay"></span> <!-- this can be any element, including an input -->
+            <img src="next.png" class="next" />
+            <img src="last.png" class="last" />
+            <select class="pagesize">
+                <option selected="selected" value="5">5</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+            </select>
+        </form>
+    </div>
 
-<input id="submit" type="button" value="submit"/>
+    <input id="submit" type="button" value="submit"/>
+}
 

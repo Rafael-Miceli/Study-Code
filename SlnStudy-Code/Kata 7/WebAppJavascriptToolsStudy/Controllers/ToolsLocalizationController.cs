@@ -11,7 +11,17 @@ namespace WebAppJavascriptToolsStudy.Controllers
     {
         public ActionResult Index()
         {
-            return View(new ToolsLocalizationModel());
+            return View(new EditCompaies());
+        }
+
+        [HttpPost]
+        public ActionResult Index(EditCompaies viewModel)
+        {
+            foreach (var toolsLocalization in viewModel.ToolsLocalizations)
+            {
+                Console.WriteLine(toolsLocalization.Id);
+                Console.WriteLine(toolsLocalization.Name);    
+            }
         }
     }
 }
