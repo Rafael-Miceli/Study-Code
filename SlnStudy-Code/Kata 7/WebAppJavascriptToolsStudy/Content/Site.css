@@ -5,15 +5,15 @@
     background-color: #eee;
 }
 
-.Grid tr td {
-    padding: 5px;
-}
-
 .Grid th {
     cursor: pointer;
 }
 
 input[data-column='0'] {
-    width: 20px;
+    width: 10px;
     visibility: hidden;
+}
+
+#table tbody tr td {
+    width: 15px;
 }
