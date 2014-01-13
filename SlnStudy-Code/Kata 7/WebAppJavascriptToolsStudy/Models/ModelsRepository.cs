@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace WebAppJavascriptToolsStudy.Models
 {
@@ -58,7 +59,12 @@ namespace WebAppJavascriptToolsStudy.Models
                 new Company
                 {
                     Id = 1,
-                    Name = "Portoverano"
+                    Name = "Portoverano",
+                    ToolsLocalizations = new Collection<ToolsLocalization>
+                    {
+                        ToolsLocalizations.Find(t => t.Id == 1),
+                        ToolsLocalizations.Find(t => t.Id == 3),
+                    }
                 },
                 new Company
                 {
