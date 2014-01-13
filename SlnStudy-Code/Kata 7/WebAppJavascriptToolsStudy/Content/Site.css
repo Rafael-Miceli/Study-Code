@@ -12,3 +12,8 @@
 .Grid th {
     cursor: pointer;
 }
+
+input[data-column='0'] {
+    width: 20px;
+    visibility: hidden;
+}
