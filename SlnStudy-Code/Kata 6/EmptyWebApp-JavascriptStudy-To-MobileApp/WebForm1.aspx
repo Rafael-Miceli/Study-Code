@@ -8,7 +8,7 @@
     <script src="jquery-1.8.2.js"></script>
     <script>
 
-        var _subjects = 'DIP';
+        var _subjectsStorage = '[{"Name" : "ECA", "Weight" : 1}]';
 
         var Subject = function() {
             var Name = Name,
@@ -24,29 +24,29 @@
             var Subjects = [];
 
             function addSubject(subject) {
-                Subjects.push(subject);
-                _subjects = JSON.stringify(Subjects);
+                this.Subjects.push(subject);
+                _subjectsStorage = JSON.stringify(Subjects);
             }
 
-            function findSubject(subjectName) {
-                for (var subjectIndex in Subjects) {
-                    if (Subjects[subjectIndex].Name === subjectName) {
+            function findSubject(subjectName, object) {
+                for (var subjectIndex in object.Subjects) {
+                    if (object.Subjects[subjectIndex].Name === subjectName) {
                         return subjectIndex;
                     }
                 }
             }
 
             function removeSubject(subjectName) {
-                var subjectIndex = findSubject(subjectName);
+                var subjectIndex = findSubject(subjectName, this);
                 if (subjectIndex) {
-                    Subjects.splice(subjectIndex, 1);
-                    _subjects = JSON.stringify(Subjects);
+                    this.Subjects.splice(subjectIndex, 1);
+                    _subjectsStorage = JSON.stringify(this.Subjects);
                     return true;
                 }
             }
             
             function listSubjects() {
-                var subjects = JSON.parse(_subjects);
+                var subjects = this.Subjects; //JSON.parse(_subjects);
                 for (var subjectIndex in subjects) {
                     document.writeln(subjects[subjectIndex].Name);
                 }
@@ -61,14 +61,14 @@
             };
         };
 
-        var subjectList = new SubjectList();
-
-        function tryParseLocalValue() {
+        function tryParseLocalValue(subjectList) {
             try {
-                subjectList.Subjects = JSON.parse(_subjects);
+                subjectList.Subjects = JSON.parse(_subjectsStorage);
+                return subjectList.Subjects;
             } catch (e) {
-                _subjects = '[]';
-                subjectList.Subjects = JSON.parse(_subjects);
+                _subjectsStorage = '[]';
+                subjectList.Subjects = JSON.parse(_subjectsStorage);
+                return subjectList.Subjects;
             }
         }    
 
@@ -86,23 +86,23 @@
             subjectEda.Name = 'EDA';
             subjectEda.Weight = 4;
             
-            tryParseLocalValue();
+            var _subjectList = new SubjectList();
+            
+            _subjectList.Subjects = tryParseLocalValue(_subjectList);
 
-            subjectList.Add(subjectDip);
-            subjectList.Add(subjectDipr);
-            subjectList.Add(subjectEda);
+            _subjectList.Add(subjectDip);
+            _subjectList.Add(subjectDipr);
+            _subjectList.Add(subjectEda);
 
-            subjectList.List();
+            _subjectList.List();
 
-            if (subjectList.Remove('DIP')) {
+            if (_subjectList.Remove('DIP')) {
                 document.writeln('Removido');
             } else {
                 document.writeln('Não removido');
             }
             
-            subjectList.List();
-            
-
+            _subjectList.List();
            
         });
 
