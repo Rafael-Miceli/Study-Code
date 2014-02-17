@@ -51,13 +51,69 @@
                     document.writeln(subjects[subjectIndex].Name);
                 }
             }
+            
+            function subjectExists(subjectName) {
+                var subjects = this.Subjects;
+                for (var subjectIndex in subjects) {
+                    if (subjects[subjectIndex].Name === subjectName) {
+                        return true;
+                    }
+                }
+            }
+            
+            function ListSubjects() {
+                var subjectList = this,
+                mytable = $('<table data-role="table" class="ui-responsive table-stroke ui-table ui-table-reflow"></table>').attr({ id: "gradeTable" }),
+                mybody = $('<tbody></tbody>'),
+                myheader = $('<thead></thead>');
+
+                myheader.appendTo(mytable);
+                mybody.appendTo(mytable);
+
+                $('#gradeTable').remove();
+
+                var rows = new Number(subjectList.Subjects.length);
+                var cols = new Number(3);
+                
+                if (rows < 1) {
+                    $('<span>Nenhuma nota cadastrada</span><br />');
+                    return;
+                }
+
+                $('<tr><th>Materia</th><th>Nota</th><th></th></tr>').appendTo(myheader);
+
+                for (var i = 0; i < rows; i++) {
+                    var row = $('<tr></tr>').appendTo(mybody);
+                    for (var j = 0; j < cols; j++) {
+                        if (j == 0) {
+                            $('<td></td>').text(subjectList.Subjects[i].Name).appendTo(row);
+                        }
+                        if (j == 1) {
+                            $('<td></td>').text(subjectList.Subjects[i].Weight).appendTo(row);
+                        }
+                        if (j == 2) {
+                            $('<td field="' + subjectList.Subjects[i].Name + '" class="delete"><img src="logo.png" /></td>').appendTo(row);
+                        }
+                    }
+                }
+                mytable.appendTo("#subjectGrid");
+                
+                $('.delete').click(function () {
+                    var field = this.getAttribute('field');
+
+                    subjectList.Remove(field);
+                    subjectList.Listar();
+                });
+            }
 
             return {
                 Subjects: Subjects,
                 Add: addSubject,
                 Remove: removeSubject,
                 Find: findSubject,
-                List: listSubjects
+                List: listSubjects,
+                Listar: ListSubjects,
+                Exists: subjectExists
             };
         };
 
@@ -94,16 +150,29 @@
             _subjectList.Add(subjectDipr);
             _subjectList.Add(subjectEda);
 
-            _subjectList.List();
-
-            if (_subjectList.Remove('DIP')) {
-                document.writeln('Removido');
-            } else {
-                document.writeln('Não removido');
-            }
+            _subjectList.Listar();
             
-            _subjectList.List();
-           
+            //$('.delete').click(function () {
+            //    var field = this.getAttribute('field');
+
+            //    alert(field);
+
+            //    _subjectList.Remove(field);
+            //    _subjectList.Listar();
+            //});
+
+            //if (_subjectList.Remove('DIP')) {
+            //    alert('Removido');
+            //} else {
+            //    alert('Não removido');
+            //}
+
+            //if (_subjectList.Exists('EPA')) {
+            //    alert('Matéria EDA existe');
+            //}
+
+            //_subjectList.Listar();
+
         });
 
     </script>
@@ -115,6 +184,8 @@
         <input type="text" id="txtWeight"/>
         <button id="cadastrar" value="Cadastrar"></button>
     </div>
+        <div id="subjectGrid">
+        </div>
     </form>
 </body>
 </html>

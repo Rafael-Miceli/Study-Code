@@ -4,3 +4,9 @@ C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\EmptyWeb
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\EmptyWebApp-JavascriptStudy-To-MobileApp\obj\Debug\EmptyWebApp-JavascriptStudy-To-MobileApp.csprojResolveAssemblyReference.cache
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\EmptyWebApp-JavascriptStudy-To-MobileApp\obj\Debug\EmptyWebApp-JavascriptStudy-To-MobileApp.dll
 C:\Users\rafael.miceli\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\EmptyWebApp-JavascriptStudy-To-MobileApp\obj\Debug\EmptyWebApp-JavascriptStudy-To-MobileApp.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\EmptyWebApp-JavascriptStudy-To-MobileApp\bin\EmptyWebApp-JavascriptStudy-To-MobileApp.dll.config
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\EmptyWebApp-JavascriptStudy-To-MobileApp\bin\EmptyWebApp-JavascriptStudy-To-MobileApp.dll
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\EmptyWebApp-JavascriptStudy-To-MobileApp\bin\EmptyWebApp-JavascriptStudy-To-MobileApp.pdb
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\EmptyWebApp-JavascriptStudy-To-MobileApp\obj\Debug\EmptyWebApp-JavascriptStudy-To-MobileApp.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\EmptyWebApp-JavascriptStudy-To-MobileApp\obj\Debug\EmptyWebApp-JavascriptStudy-To-MobileApp.dll
+C:\Users\Rafael\Documents\GitHub\Study-Code\SlnStudy-Code\Kata 6\EmptyWebApp-JavascriptStudy-To-MobileApp\obj\Debug\EmptyWebApp-JavascriptStudy-To-MobileApp.pdb

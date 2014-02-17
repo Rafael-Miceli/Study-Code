@@ -60,6 +60,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Default.js" />
     <Content Include="jquery-1.8.2.js" />
+    <Content Include="logo.png" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />

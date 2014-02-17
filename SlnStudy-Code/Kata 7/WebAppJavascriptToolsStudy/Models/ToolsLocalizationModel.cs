@@ -23,6 +23,8 @@ namespace WebAppJavascriptToolsStudy.Models
 
     }
 
+#region Domain Models
+
     public class ToolsLocalization
     {
 
@@ -37,4 +39,20 @@ namespace WebAppJavascriptToolsStudy.Models
         public string Name { get; set; }
         public ICollection<ToolsLocalization> ToolsLocalizations { get; set; }
     }
+
+    public class Tool
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
+
+    public class ToolCheckin
+    {
+        public int Id { get; set; }
+        public int ToolId { get; set; }
+        public DateTime DateTimeCheckin { get; set; }
+        public int CompanyId { get; set; }
+    }
+
+#endregion
 }
