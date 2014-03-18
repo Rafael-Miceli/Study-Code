@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneGapApp-Study", "PhoneGapApp-Study\PhoneGapApp-Study.csproj", "{3677C1B7-D68B-4CF9-BF8A-E869D437A6DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grades", "PhoneGapApp-Study\Grades.csproj", "{3677C1B7-D68B-4CF9-BF8A-E869D437A6DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

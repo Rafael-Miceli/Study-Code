@@ -208,7 +208,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="config.xml" />
+    <Content Include="config.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="www\cordova.js" />
     <Resource Include="www\css\images\ajax-loader.gif" />
     <Content Include="www\css\CrCalculator.css" />
@@ -413,7 +415,12 @@
     <Content Include="www\css\images\icons-svg\video-black.svg" />
     <Content Include="www\css\images\icons-svg\video-white.svg" />
     <Content Include="www\css\jquery.mobile-1.4.0.css" />
+    <Content Include="www\img\ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="www\img\SplashScreenImage.jpg" />
     <Content Include="www\js\jquery.js" />
+    <Content Include="www\js\jquery.maskedinput.js" />
     <Content Include="www\js\jquery.mobile-1.4.0.js" />
     <Content Include="www\css\jquery.mobile.external-png-1.4.0.css" />
     <Content Include="www\css\jquery.mobile.icons-1.4.0.css" />

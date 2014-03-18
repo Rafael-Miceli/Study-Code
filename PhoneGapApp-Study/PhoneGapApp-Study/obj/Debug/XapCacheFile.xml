@@ -1,6 +1,6 @@
-﻿<xapCache source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="28/12/2013 17:43:47">
-  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\obj\Debug\PhoneGapApp-Study.dll" archivePath="PhoneGapApp-Study.dll" lastWriteTime="28/12/2013 16:15:17" />
-  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\config.xml" archivePath="config.xml" lastWriteTime="28/12/2013 09:29:33" />
+﻿<xapCache source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="12/02/2014 13:28:00">
+  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\obj\Debug\PhoneGapApp-Study.dll" archivePath="PhoneGapApp-Study.dll" lastWriteTime="12/02/2014 13:27:57" />
+  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\config.xml" archivePath="config.xml" lastWriteTime="06/02/2014 13:41:30" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\cordova.js" archivePath="www\cordova.js" lastWriteTime="28/12/2013 09:29:33" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\css\CrCalculator.css" archivePath="www\css\CrCalculator.css" lastWriteTime="28/12/2013 17:06:40" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\css\images\icons-png\action-black.png" archivePath="www\css\images\icons-png\action-black.png" lastWriteTime="28/12/2013 10:10:08" />
@@ -204,7 +204,10 @@
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\css\images\icons-svg\video-black.svg" archivePath="www\css\images\icons-svg\video-black.svg" lastWriteTime="28/12/2013 10:10:09" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\css\images\icons-svg\video-white.svg" archivePath="www\css\images\icons-svg\video-white.svg" lastWriteTime="28/12/2013 10:10:09" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\css\jquery.mobile-1.4.0.css" archivePath="www\css\jquery.mobile-1.4.0.css" lastWriteTime="28/12/2013 10:09:48" />
+  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\img\ApplicationIcon.png" archivePath="www\img\ApplicationIcon.png" lastWriteTime="06/02/2014 13:36:35" />
+  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\img\SplashScreenImage.jpg" archivePath="www\img\SplashScreenImage.jpg" lastWriteTime="06/02/2014 13:36:40" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\js\jquery.js" archivePath="www\js\jquery.js" lastWriteTime="28/12/2013 10:32:44" />
+  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\js\jquery.maskedinput.js" archivePath="www\js\jquery.maskedinput.js" lastWriteTime="06/02/2014 10:01:34" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\js\jquery.mobile-1.4.0.js" archivePath="www\js\jquery.mobile-1.4.0.js" lastWriteTime="28/12/2013 10:09:48" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\css\jquery.mobile.external-png-1.4.0.css" archivePath="www\css\jquery.mobile.external-png-1.4.0.css" lastWriteTime="28/12/2013 10:09:48" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\css\jquery.mobile.icons-1.4.0.css" archivePath="www\css\jquery.mobile.icons-1.4.0.css" lastWriteTime="28/12/2013 10:09:48" />
@@ -212,9 +215,9 @@
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\css\jquery.mobile.inline-svg-1.4.0.css" archivePath="www\css\jquery.mobile.inline-svg-1.4.0.css" lastWriteTime="28/12/2013 10:09:48" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\css\jquery.mobile.structure-1.4.0.css" archivePath="www\css\jquery.mobile.structure-1.4.0.css" lastWriteTime="28/12/2013 10:09:48" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\css\jquery.mobile.theme-1.4.0.css" archivePath="www\css\jquery.mobile.theme-1.4.0.css" lastWriteTime="28/12/2013 10:09:48" />
-  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\index.html" archivePath="www\index.html" lastWriteTime="28/12/2013 17:28:40" />
-  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\css\index.css" archivePath="www\css\index.css" lastWriteTime="28/12/2013 09:29:33" />
-  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\js\index.js" archivePath="www\js\index.js" lastWriteTime="28/12/2013 17:43:12" />
+  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\index.html" archivePath="www\index.html" lastWriteTime="06/02/2014 10:45:23" />
+  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\css\index.css" archivePath="www\css\index.css" lastWriteTime="05/02/2014 19:45:48" />
+  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\js\index.js" archivePath="www\js\index.js" lastWriteTime="06/02/2014 11:40:24" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\www\img\logo.png" archivePath="www\img\logo.png" lastWriteTime="28/12/2013 09:29:33" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\Images\appbar.back.rest.png" archivePath="Images\appbar.back.rest.png" lastWriteTime="28/12/2013 09:29:33" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\Images\appbar.close.rest.png" archivePath="Images\appbar.close.rest.png" lastWriteTime="28/12/2013 09:29:33" />
@@ -222,9 +225,9 @@
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\Images\appbar.next.rest.png" archivePath="Images\appbar.next.rest.png" lastWriteTime="28/12/2013 09:29:33" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\Images\appbar.save.rest.png" archivePath="Images\appbar.save.rest.png" lastWriteTime="28/12/2013 09:29:33" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\Images\appbar.stop.rest.png" archivePath="Images\appbar.stop.rest.png" lastWriteTime="28/12/2013 09:29:33" />
-  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="28/12/2013 09:29:33" />
+  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="06/02/2014 11:37:56" />
   <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="28/12/2013 10:10:56" />
-  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="28/12/2013 09:29:33" />
-  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="28/12/2013 09:29:33" />
-  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="28/12/2013 10:10:56" />
+  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="06/02/2014 12:57:37" />
+  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="06/02/2014 12:59:13" />
+  <file source="C:\Users\Rafael\Documents\Visual Studio 2013\Projects\PhoneGapApp-Study\PhoneGapApp-Study\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="06/02/2014 13:41:35" />
 </xapCache>

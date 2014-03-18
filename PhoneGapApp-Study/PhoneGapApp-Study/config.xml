@@ -20,6 +20,17 @@
 #
 -->
 <widget>
+
+    <name>Grades</name>
+
+    <description>
+      Aplicação para o cálculo de Cr do seu semestre.
+    </description>
+
+    <author href="http://rafael-miceli.github.io/" email="rafael.miceli@hotmail.com">
+      Rafael Miceli
+    </author>
+  
     <access origin="*"/>
 
     <features>
