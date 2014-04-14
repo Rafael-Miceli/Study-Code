@@ -1,17 +1,18 @@
+package Main;
+
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Rafael
- * Date: 08/04/14
- * Time: 21:05
- * To change this template use File | Settings | File Templates.
- */
 public class Tool {
 
     public String Name;
-    public String toolCategoryName;
+    public String ToolCategoryName;
+
+    public Tool(String name, String toolCategoryName)
+    {
+        Name = name;
+        ToolCategoryName = toolCategoryName;
+    }
 
 
     public List<Tool> getToolsFromCategory(String categoryName)
@@ -21,7 +22,7 @@ public class Tool {
 
         List<Tool> toolsFromCategory = new ArrayList<Tool>();
         for (Tool tool : allTools)
-            if (tool.toolCategoryName == categoryName)
+            if (tool.ToolCategoryName == categoryName)
                 toolsFromCategory.add(tool);
 
         return toolsFromCategory;
