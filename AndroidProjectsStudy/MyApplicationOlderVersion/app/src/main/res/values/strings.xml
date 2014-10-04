@@ -8,5 +8,7 @@
     <string name="action_grades">Notas</string>
     <string name="title_activity_my_activity2">MyActivity2</string>
     <string name="hello_world_subjects">Matérias</string>
+    <string name="title_activity_grades">Grades</string>
+    <string name="title_activity_subjects">Matérias</string>
 
 </resources>
