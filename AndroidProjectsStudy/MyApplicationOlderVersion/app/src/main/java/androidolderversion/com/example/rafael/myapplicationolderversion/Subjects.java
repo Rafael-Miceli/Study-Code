@@ -4,6 +4,10 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class Subjects extends Activity {
@@ -12,6 +16,20 @@ public class Subjects extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_subjects);
+
+        Button btnSave = (Button)findViewById(R.id.btnSaveSubject);
+        btnSave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBtnSaveClick(v);
+            }
+        });
+    }
+
+    private void onBtnSaveClick(View v) {
+        TextView txtSubjectName = (TextView)findViewById(R.id.txtSubjectName);
+        Toast toast = Toast.makeText(this, txtSubjectName.getText(), Toast.LENGTH_LONG);
+        toast.show();
     }
 
 
