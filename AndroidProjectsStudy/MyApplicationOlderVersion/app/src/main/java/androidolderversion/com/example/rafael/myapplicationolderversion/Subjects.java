@@ -21,7 +21,6 @@ public class Subjects extends Activity {
     private EditText mEditSubjectName;
     private GridView mGrdSubjects;
     private ImageAdapter imageAdapter;
-    private List<String> Subjects;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,15 +28,6 @@ public class Subjects extends Activity {
         setContentView(R.layout.activity_subjects);
 
         SetupViews();
-
-        if (savedInstanceState != null) {
-
-        }
-    }
-
-    @Override
-    protected void onSaveInstanceState(Bundle outState) {
-
     }
 
     private void SetupViews() {
@@ -57,6 +47,7 @@ public class Subjects extends Activity {
     private void onBtnSaveClick(View view) {
 
         String subject = getmEditSubjectName().getText().toString();
+
         imageAdapter.Subjects.add(subject);
         getmGrdSubjects().setAdapter(imageAdapter);
     }

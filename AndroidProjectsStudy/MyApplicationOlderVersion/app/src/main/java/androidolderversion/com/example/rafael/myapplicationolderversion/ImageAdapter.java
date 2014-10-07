@@ -1,6 +1,7 @@
 package androidolderversion.com.example.rafael.myapplicationolderversion;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -14,6 +15,7 @@ import java.util.List;
  */
 public class ImageAdapter extends BaseAdapter {
 
+    public static final String SUBJECTS_NAME = "SubjectsFile";
     private Context mContext;
 
     public List<String> Subjects;
@@ -21,9 +23,9 @@ public class ImageAdapter extends BaseAdapter {
     public ImageAdapter(Context context){
         mContext = context;
         Subjects = new ArrayList<String>();
-        Subjects.add("Android Development");
-        Subjects.add("Analise de Requisitos");
-        Subjects.add("Arquitetura de Software");
+
+        SharedPreferences sharedPreferences = context.getSharedPreferences(SUBJECTS_NAME, 0);
+
     }
 
     @Override
