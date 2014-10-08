@@ -24,7 +24,9 @@ public class ImageAdapter extends BaseAdapter {
         mContext = context;
         Subjects = new ArrayList<String>();
 
-        SharedPreferences sharedPreferences = context.getSharedPreferences(SUBJECTS_NAME, 0);
+        Subjects.add("Android Development");
+        Subjects.add("Java Web II");
+        Subjects.add(".Net I");
 
     }
 

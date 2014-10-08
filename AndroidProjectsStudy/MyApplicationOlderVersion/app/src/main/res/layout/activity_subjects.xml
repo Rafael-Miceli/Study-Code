@@ -72,7 +72,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Matérias"
         android:id="@+id/textView4"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/btnSaveSubject"
         android:layout_centerHorizontal="true" />
 
     <GridView
