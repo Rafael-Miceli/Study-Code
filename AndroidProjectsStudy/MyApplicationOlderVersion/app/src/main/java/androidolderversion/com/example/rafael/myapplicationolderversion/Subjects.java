@@ -50,7 +50,6 @@ public class Subjects extends Activity {
 
     private void onBtnSaveClick(View view) {
 
-
         Subject subject = new Subject(getmEditSubjectName().getText().toString(), getmEditTextWeight().getText().toString());
 
         databaseHelper.addSubject(subject);
