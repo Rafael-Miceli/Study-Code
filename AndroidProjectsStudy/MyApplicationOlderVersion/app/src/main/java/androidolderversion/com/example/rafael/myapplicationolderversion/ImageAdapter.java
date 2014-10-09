@@ -1,14 +1,14 @@
 package androidolderversion.com.example.rafael.myapplicationolderversion;
 
 import android.content.Context;
-import android.content.SharedPreferences;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.List;
+
+import androidolderversion.com.example.rafael.myapplicationolderversion.model.Subject;
 
 /**
  * Created by rafael.miceli on 06/10/2014.
@@ -18,21 +18,19 @@ public class ImageAdapter extends BaseAdapter {
     public static final String SUBJECTS_NAME = "SubjectsFile";
     private Context mContext;
 
-    public List<String> Subjects;
+    public List<Subject> SubjectsList;
 
-    public ImageAdapter(Context context){
+    public ImageAdapter(Context context) {
         mContext = context;
-        Subjects = new ArrayList<String>();
 
-        Subjects.add("Android Development");
-        Subjects.add("Java Web II");
-        Subjects.add(".Net I");
+        DatabaseHelper databaseHelper = new DatabaseHelper(context);
 
+        SubjectsList = databaseHelper.getAllSubjects();
     }
 
     @Override
     public int getCount() {
-        return Subjects.size();
+        return SubjectsList.size();
     }
 
     @Override
@@ -46,7 +44,7 @@ public class ImageAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int i, View view, ViewGroup viewGroup) {
+    public View getView(int rowIndex, View view, ViewGroup viewGroup) {
         TextView textView;
 
         if (view == null){
@@ -55,7 +53,7 @@ public class ImageAdapter extends BaseAdapter {
             textView = (TextView)view;
         }
 
-        textView.setText(Subjects.get(i));
+        textView.setText(SubjectsList.get(rowIndex).getName());
 
         return textView;
     }

@@ -14,6 +14,8 @@ import android.widget.Toast;
 
 import java.util.List;
 
+import androidolderversion.com.example.rafael.myapplicationolderversion.model.Subject;
+
 
 public class Subjects extends Activity {
 
@@ -21,12 +23,14 @@ public class Subjects extends Activity {
     private EditText mEditSubjectName;
     private GridView mGrdSubjects;
     private ImageAdapter imageAdapter;
+    private DatabaseHelper databaseHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_subjects);
 
+        databaseHelper = new DatabaseHelper(this);
         SetupViews();
     }
 
@@ -46,9 +50,12 @@ public class Subjects extends Activity {
 
     private void onBtnSaveClick(View view) {
 
-        String subject = getmEditSubjectName().getText().toString();
 
-        imageAdapter.Subjects.add(subject);
+        Subject subject = new Subject(getmEditSubjectName().getText().toString(), getmEditTextWeight().getText().toString());
+
+        databaseHelper.addSubject(subject);
+        imageAdapter = new ImageAdapter(this);
+
         getmGrdSubjects().setAdapter(imageAdapter);
     }
 
