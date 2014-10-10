@@ -56,10 +56,33 @@ public class LoginActivity extends PlusBaseActivity implements LoaderCallbacks<C
 
     // UI references.
     private AutoCompleteTextView mEmailView;
+
+    public EditText getmPasswordView() {
+        if (mPasswordView == null) {
+            mPasswordView = (EditText) findViewById(R.id.password);
+        }
+        return mPasswordView;
+    }
+
     private EditText mPasswordView;
     private View mProgressView;
     private View mEmailLoginFormView;
     private SignInButton mPlusSignInButton;
+
+    public View getmSignOutButtons() {
+        if (mSignOutButtons == null) {
+            mSignOutButtons = findViewById(R.id.plus_sign_out_buttons);
+        }
+        return mSignOutButtons;
+    }
+
+    public View getmEmailLoginFormView() {
+        if (mEmailLoginFormView == null) {
+            mEmailLoginFormView = findViewById(R.id.email_login_form);
+        }
+        return mEmailLoginFormView;
+    }
+
     private View mSignOutButtons;
     private View mLoginFormView;
 
@@ -81,8 +104,10 @@ public class LoginActivity extends PlusBaseActivity implements LoaderCallbacks<C
         } else {
             // Don't offer G+ sign in if the app's version is too low to support Google Play
             // Services.
-            mPlusSignInButton.setVisibility(View.GONE);
-            return;
+            //mPlusSignInButton.setVisibility(View.GONE);
+
+            findViewById(R.id.plus_sign_in_button).setVisibility(View.GONE);
+            //return;
         }
 
         // Set up the login form.
@@ -247,9 +272,9 @@ public class LoginActivity extends PlusBaseActivity implements LoaderCallbacks<C
         //TODO: Update this logic to also handle the user logged in by email.
         boolean connected = getPlusClient().isConnected();
 
-        mSignOutButtons.setVisibility(connected ? View.VISIBLE : View.GONE);
+        getmSignOutButtons().setVisibility(connected ? View.VISIBLE : View.GONE);
         mPlusSignInButton.setVisibility(connected ? View.GONE : View.VISIBLE);
-        mEmailLoginFormView.setVisibility(connected ? View.GONE : View.VISIBLE);
+        getmEmailLoginFormView().setVisibility(connected ? View.GONE : View.VISIBLE);
     }
 
     @Override
