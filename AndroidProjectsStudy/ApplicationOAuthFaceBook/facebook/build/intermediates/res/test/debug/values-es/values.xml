@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/C:/Users/Rafael/Documents/GitHub/Study-Code/AndroidProjectsStudy/ApplicationOAuthFaceBook/facebook/build/intermediates/bundles/debug/res/values-es/values.xml -->
+    <!-- From: file:/C:/Users/rafael.miceli/Documents/GitHub/Study-Code/AndroidProjectsStudy/ApplicationOAuthFaceBook/facebook/build/intermediates/bundles/debug/res/values-es/values.xml -->
     <eat-comment />
 
     <string name="com_facebook_choose_friends">Elige Amigos</string>
