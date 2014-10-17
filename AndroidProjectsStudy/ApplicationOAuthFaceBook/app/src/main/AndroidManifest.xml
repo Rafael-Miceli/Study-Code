@@ -9,7 +9,9 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".FacebookLogin"
-            android:label="@string/title_activity_facebook_login" >
+            android:label="@string/title_activity_facebook_login"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
