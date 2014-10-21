@@ -2,10 +2,10 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="C:\Users\rafael.miceli\Documents\GitHub\Study-Code\AndroidProjectsStudy\ApplicationOAuthFaceBook\facebook\src\main\assets" />
+        <source path="C:\Users\rafael.miceli\Documents\GitHub\Study-Code\AndroidProjectsStudy\ApplicationOAuthFaceBook\facebook\assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="C:\Users\rafael.miceli\Documents\GitHub\Study-Code\AndroidProjectsStudy\ApplicationOAuthFaceBook\facebook\src\debug\assets" />
+        <source path="C:\Users\rafael.miceli\Documents\GitHub\Study-Code\AndroidProjectsStudy\ApplicationOAuthFaceBook\facebook\build-types\debug\assets" />
     </dataSet>
 
 </merger>

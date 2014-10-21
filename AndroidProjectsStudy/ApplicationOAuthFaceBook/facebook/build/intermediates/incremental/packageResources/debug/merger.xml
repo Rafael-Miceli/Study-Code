@@ -1151,7 +1151,7 @@ center
         <source path="C:\Users\rafael.miceli\Documents\GitHub\Study-Code\AndroidProjectsStudy\ApplicationOAuthFaceBook\facebook\build\generated\res\generated\debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="C:\Users\rafael.miceli\Documents\GitHub\Study-Code\AndroidProjectsStudy\ApplicationOAuthFaceBook\facebook\src\debug\res" />
+        <source path="C:\Users\rafael.miceli\Documents\GitHub\Study-Code\AndroidProjectsStudy\ApplicationOAuthFaceBook\facebook\build-types\debug\res" />
     </dataSet>
 
 </merger>
