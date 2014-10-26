@@ -6,18 +6,16 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     
-    
-    <fragment
+
+    <fragment android:name="oauthfacebook.com.example.rafaelmiceli.applicationoauthfacebook.MainFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="oauthfacebook.com.example.rafaelmiceli.applicationoauthfacebook.MainFragment"
         android:id="@+id/mainFragment"
         tools:layout="@layout/fragment_main" />
 
-    <fragment
+    <fragment android:name="oauthfacebook.com.example.rafaelmiceli.applicationoauthfacebook.SplashFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="oauthfacebook.com.example.rafaelmiceli.applicationoauthfacebook.SplashFragment"
         android:id="@+id/splashFragment"
         tools:layout="@layout/fragment_splash" />
 

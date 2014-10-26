@@ -52,9 +52,12 @@ public class FacebookLogin extends FragmentActivity {
 
 
         FragmentTransaction transaction = fm.beginTransaction();
-        for(int i = 0; i < fragments.length; i++) {
-            transaction.hide(fragments[i]);
+        for(Fragment fragment : fragments) {
+            if (fragment != null) {
+                transaction.hide(fragment);
+            }
         }
+
         transaction.commit();
 
     }
@@ -88,9 +91,13 @@ public class FacebookLogin extends FragmentActivity {
         FragmentTransaction transaction = fm.beginTransaction();
         for (int i = 0; i < fragments.length; i++) {
             if (i == fragmentIndex) {
-                transaction.show(fragments[i]);
+                if (fragments[i] != null) {
+                    transaction.show(fragments[i]);
+                }
             } else {
-                transaction.hide(fragments[i]);
+                if (fragments[i] != null) {
+                    transaction.hide(fragments[i]);
+                }
             }
         }
         if (addToBackStack) {
