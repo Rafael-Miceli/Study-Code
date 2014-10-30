@@ -43,11 +43,38 @@
         android:background="#000000"
         android:layout_gravity="start">
 
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#FFFFFF"
-            android:text="Drawer"/>
+            android:text="Agenda"
+            android:id="@+id/agenda"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:text="Ajustar preço"
+            android:id="@+id/adjustPrice"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ajustar tempo"
+            android:textColor="#FFFFFF"
+            android:id="@+id/adjustTime" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Meu perfil"
+            android:textColor="#FFFFFF"
+            android:id="@+id/myProfile" />
 
     </RelativeLayout>
 
