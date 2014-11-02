@@ -1,24 +1,33 @@
 package oauthfacebook.com.example.rafaelmiceli.applicationoauthfacebook;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
 
 
-public class MyProfile extends Activity {
+public class MyProfile extends Activity implements ListView.OnItemClickListener {
+
+    private NavigationDrawerHelper mNavigationDrawerHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_profile);
+
+        mNavigationDrawerHelper = new NavigationDrawerHelper();
+        mNavigationDrawerHelper.init(this, this);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.my_profile, menu);
+        //getMenuInflater().inflate(R.menu.my_profile, menu);
         return true;
     }
 
@@ -32,5 +41,16 @@ public class MyProfile extends Activity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        if (position == 4)
+        {
+            Intent intent = new Intent(this, Logout.class);
+            startActivity(intent);
+        }
+
+        mNavigationDrawerHelper.handleSelect(position);
     }
 }

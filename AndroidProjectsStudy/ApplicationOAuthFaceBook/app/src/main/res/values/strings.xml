@@ -9,5 +9,9 @@
     <string name="app_id">855577331133452</string>
     <string name="settings">Opções</string>
     <string name="title_activity_my_profile">MyProfile</string>
+    <string name="open_drawer_message">Open course categories</string>
+    <string name="close_drawer_message">Close course categories</string>
+    <string name="my_profile">Meu perfil</string>
+    <string name="title_activity_logout">Logout</string>
 
 </resources>

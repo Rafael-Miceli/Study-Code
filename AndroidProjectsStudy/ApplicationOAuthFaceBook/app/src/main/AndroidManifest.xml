@@ -33,6 +33,10 @@
             android:name=".MyProfile"
             android:label="@string/title_activity_my_profile" >
         </activity>
+        <activity
+            android:name=".Logout"
+            android:label="@string/title_activity_logout" >
+        </activity>
     </application>
     <!-- To access Google+ APIs: -->
     <uses-permission android:name="android.permission.INTERNET" />

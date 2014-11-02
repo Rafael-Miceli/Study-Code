@@ -140,7 +140,8 @@ public class FacebookLogin extends FragmentActivity {
         if (session != null && session.isOpened()) {
             // if the session is already open,
             // try to show the selection fragment
-            showFragment(MAIN, false);
+            Intent intent = new Intent(this, MyProfile.class);
+            startActivity(intent);
         } else {
             // otherwise present the splash screen
             // and ask the person to login.
