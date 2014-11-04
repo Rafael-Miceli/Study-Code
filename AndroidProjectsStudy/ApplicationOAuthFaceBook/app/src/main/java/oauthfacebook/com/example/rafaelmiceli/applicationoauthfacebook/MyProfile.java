@@ -38,7 +38,7 @@ public class MyProfile extends Activity implements ListView.OnItemClickListener 
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         mNavigationDrawerHelper.handleSelect(position);
 
-        if (position == 4) {
+        if (position == mNavigationDrawerHelper.LOGOUT) {
             Intent intent = new Intent(this, Logout.class);
             startActivity(intent);
         }

@@ -49,7 +49,7 @@ public class Logout extends FragmentActivity implements ListView.OnItemClickList
         } else if (state.isClosed()) {
             // If the session state is closed:
             // Show the login fragment
-            mNavigationDrawerHelper.handleSelect(3);
+            mNavigationDrawerHelper.handleSelect(mNavigationDrawerHelper.MY_PROFILE);
             Intent intent = new Intent(this, FacebookLogin.class);
             startActivity(intent);
         }
@@ -91,7 +91,7 @@ public class Logout extends FragmentActivity implements ListView.OnItemClickList
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         mNavigationDrawerHelper.handleSelect(position);
 
-        if (position == 3) {
+        if (position == mNavigationDrawerHelper.MY_PROFILE) {
             Intent intent = new Intent(this, MyProfile.class);
             startActivity(intent);
         }

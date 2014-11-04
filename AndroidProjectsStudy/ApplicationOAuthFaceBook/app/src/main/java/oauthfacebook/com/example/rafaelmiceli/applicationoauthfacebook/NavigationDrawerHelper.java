@@ -16,11 +16,17 @@ import android.widget.ListView;
  */
 public class NavigationDrawerHelper {
 
+
+    public static final int AGENDA = 0;
+    public static final int SERVICES = 1;
+    public static final int MY_PROFILE = 2;
+    public static final int LOGOUT = 3;
+
     static NavigationDrawerHelper mNavigationDrawerHelperInstance;
 
     DrawerLayout mDrawerLayout;
     ListView mDrawerListView;
-    private int mCheckedOption = 3;
+    private int mCheckedOption = MY_PROFILE;
     private ActionBarDrawerToggle mDrawerToggle;
 
     private NavigationDrawerHelper()    {
