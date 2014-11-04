@@ -16,9 +16,23 @@ import android.widget.ListView;
  */
 public class NavigationDrawerHelper {
 
+    static NavigationDrawerHelper mNavigationDrawerHelperInstance;
+
     DrawerLayout mDrawerLayout;
     ListView mDrawerListView;
+    private int mCheckedOption = 3;
     private ActionBarDrawerToggle mDrawerToggle;
+
+    private NavigationDrawerHelper()    {
+    }
+
+    public static NavigationDrawerHelper initializeInstance() {
+        if (mNavigationDrawerHelperInstance == null) {
+            mNavigationDrawerHelperInstance = new NavigationDrawerHelper();
+        }
+
+        return mNavigationDrawerHelperInstance;
+    }
 
     public  void init(Activity theActivity, ListView.OnItemClickListener listener) {
         mDrawerLayout = (DrawerLayout) theActivity.findViewById(R.id.drawer_layout);
@@ -32,7 +46,7 @@ public class NavigationDrawerHelper {
         mDrawerListView.setOnItemClickListener(listener);
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
 
-        mDrawerListView.setItemChecked(3, true);
+        mDrawerListView.setItemChecked(mCheckedOption, true);
         setupActionBar(theActivity);
 
     }
@@ -66,7 +80,8 @@ public class NavigationDrawerHelper {
     }
 
     public void handleSelect(int option) {
-        mDrawerListView.setItemChecked(option, true);
+        mCheckedOption = option;
+        mDrawerListView.setItemChecked(mCheckedOption, true);
         mDrawerLayout.closeDrawer(mDrawerListView);
     }
 

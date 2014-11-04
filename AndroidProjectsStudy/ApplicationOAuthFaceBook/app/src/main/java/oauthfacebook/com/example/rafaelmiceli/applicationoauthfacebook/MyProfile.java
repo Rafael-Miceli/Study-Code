@@ -3,7 +3,6 @@ package oauthfacebook.com.example.rafaelmiceli.applicationoauthfacebook;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -19,7 +18,7 @@ public class MyProfile extends Activity implements ListView.OnItemClickListener 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_profile);
 
-        mNavigationDrawerHelper = new NavigationDrawerHelper();
+        mNavigationDrawerHelper = NavigationDrawerHelper.initializeInstance();
         mNavigationDrawerHelper.init(this, this);
     }
 
@@ -37,12 +36,11 @@ public class MyProfile extends Activity implements ListView.OnItemClickListener 
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        if (position == 4)
-        {
+        mNavigationDrawerHelper.handleSelect(position);
+
+        if (position == 4) {
             Intent intent = new Intent(this, Logout.class);
             startActivity(intent);
         }
-
-        mNavigationDrawerHelper.handleSelect(position);
     }
 }

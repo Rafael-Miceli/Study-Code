@@ -18,11 +18,9 @@ public class FacebookLogin extends FragmentActivity {
 
     private static final int SPLASH = 0;
     private static final int MAIN = 1;
-    private static final int SETTINGS = 2;
-    private static final int FRAGMENT_COUNT = SETTINGS + 1;
+    private static final int FRAGMENT_COUNT = MAIN + 1;
 
 
-    private MenuItem settings;
     private boolean isResumed = false;
     private Fragment[] fragments = new Fragment[FRAGMENT_COUNT];
     private UiLifecycleHelper uiHelper;
@@ -47,7 +45,6 @@ public class FacebookLogin extends FragmentActivity {
         FragmentManager fm = getSupportFragmentManager();
         fragments[SPLASH] = fm.findFragmentById(R.id.splashFragment);
         fragments[MAIN] = fm.findFragmentById(R.id.mainFragment);
-        fragments[SETTINGS] = fm.findFragmentById(R.id.userSettingsFragment);
 
 
 
@@ -106,30 +103,6 @@ public class FacebookLogin extends FragmentActivity {
             transaction.addToBackStack(null);
         }
         transaction.commit();
-    }
-
-    @Override
-    public boolean onPrepareOptionsMenu(Menu menu) {
-        // only add the menu when the selection fragment is showing
-        if (fragments[MAIN].isVisible()) {
-            if (menu.size() == 0) {
-                settings = menu.add(R.string.settings);
-            }
-            return true;
-        } else {
-            menu.clear();
-            settings = null;
-        }
-        return false;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.equals(settings)) {
-            showFragment(SETTINGS, true);
-            return true;
-        }
-        return false;
     }
 
     @Override
