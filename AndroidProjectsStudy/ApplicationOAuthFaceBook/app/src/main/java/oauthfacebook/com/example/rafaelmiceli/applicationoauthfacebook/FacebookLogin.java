@@ -17,8 +17,7 @@ import com.facebook.UiLifecycleHelper;
 public class FacebookLogin extends FragmentActivity {
 
     private static final int SPLASH = 0;
-    private static final int MAIN = 1;
-    private static final int FRAGMENT_COUNT = MAIN + 1;
+    private static final int FRAGMENT_COUNT = SPLASH + 1;
 
 
     private boolean isResumed = false;
@@ -44,7 +43,6 @@ public class FacebookLogin extends FragmentActivity {
 
         FragmentManager fm = getSupportFragmentManager();
         fragments[SPLASH] = fm.findFragmentById(R.id.splashFragment);
-        fragments[MAIN] = fm.findFragmentById(R.id.mainFragment);
 
 
 
@@ -72,8 +70,7 @@ public class FacebookLogin extends FragmentActivity {
 
             if (state.isOpened()) {
                 // If the session state is open:
-                // Show the authenticated fragment
-                //showFragment(MAIN, false);
+                // Show the authenticated activity
                 Intent intent = new Intent(this, MyProfile.class);
                 startActivity(intent);
             } else if (state.isClosed()) {
