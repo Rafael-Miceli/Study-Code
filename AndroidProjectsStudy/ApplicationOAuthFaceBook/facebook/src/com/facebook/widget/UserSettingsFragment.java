@@ -435,7 +435,7 @@ public class UserSettingsFragment extends FacebookFragment {
     }
 
     private void processImageResponse(String id, ImageResponse response) {
-        if (response != null) {
+        if (response != null && UserSettingsFragment.this.isAdded()) {
             Bitmap bitmap = response.getBitmap();
             if (bitmap != null) {
                 BitmapDrawable drawable = new BitmapDrawable(UserSettingsFragment.this.getResources(), bitmap);
