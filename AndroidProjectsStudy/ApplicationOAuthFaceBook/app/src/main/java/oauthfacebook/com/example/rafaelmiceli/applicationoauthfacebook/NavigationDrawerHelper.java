@@ -2,6 +2,8 @@ package oauthfacebook.com.example.rafaelmiceli.applicationoauthfacebook;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -89,6 +91,29 @@ public class NavigationDrawerHelper {
         mCheckedOption = option;
         mDrawerListView.setItemChecked(mCheckedOption, true);
         mDrawerLayout.closeDrawer(mDrawerListView);
+    }
+
+    public void callIntent(int option, Context context) {
+        if (option == LOGOUT) {
+            Intent intent = new Intent(context, Logout.class);
+            context.startActivity(intent);
+        }
+
+        if (option == SERVICES) {
+            Intent intent = new Intent(context, Services.class);
+            context.startActivity(intent);
+        }
+
+        if (option == MY_PROFILE) {
+            Intent intent = new Intent(context, MyProfile.class);
+            context.startActivity(intent);
+        }
+
+        if (option == AGENDA) {
+            Intent intent = new Intent(context, Agenda.class);
+            context.startActivity(intent);
+        }
+
     }
 
     public void handleOnPrepareOptionsMenu(Menu menu) {

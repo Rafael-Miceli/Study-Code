@@ -91,9 +91,6 @@ public class Logout extends FragmentActivity implements ListView.OnItemClickList
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         mNavigationDrawerHelper.handleSelect(position);
 
-        if (position == mNavigationDrawerHelper.MY_PROFILE) {
-            Intent intent = new Intent(this, MyProfile.class);
-            startActivity(intent);
-        }
+        mNavigationDrawerHelper.callIntent(position, this);
     }
 }

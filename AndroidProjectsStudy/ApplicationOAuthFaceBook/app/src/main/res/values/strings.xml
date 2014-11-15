@@ -13,5 +13,7 @@
     <string name="close_drawer_message">Close course categories</string>
     <string name="my_profile">Meu perfil</string>
     <string name="title_activity_logout">Logout</string>
+    <string name="title_activity_services">Services</string>
+    <string name="title_activity_agenda">Agenda</string>
 
 </resources>
