@@ -44,17 +44,6 @@ public class FacebookLogin extends FragmentActivity {
         FragmentManager fm = getSupportFragmentManager();
         fragments[SPLASH] = fm.findFragmentById(R.id.splashFragment);
 
-
-
-        FragmentTransaction transaction = fm.beginTransaction();
-        for(Fragment fragment : fragments) {
-            if (fragment != null) {
-                transaction.hide(fragment);
-            }
-        }
-
-        transaction.commit();
-
     }
 
     private void onSessionStateChange(Session session, SessionState state, Exception exception) {
@@ -85,17 +74,9 @@ public class FacebookLogin extends FragmentActivity {
 
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction transaction = fm.beginTransaction();
-        for (int i = 0; i < fragments.length; i++) {
-            if (i == fragmentIndex) {
-                if (fragments[i] != null) {
-                    transaction.show(fragments[i]);
-                }
-            } else {
-                if (fragments[i] != null) {
-                    transaction.hide(fragments[i]);
-                }
-            }
-        }
+
+        transaction.show(fragments[fragmentIndex]);
+
         if (addToBackStack) {
             transaction.addToBackStack(null);
         }
@@ -109,7 +90,7 @@ public class FacebookLogin extends FragmentActivity {
 
         if (session != null && session.isOpened()) {
             // if the session is already open,
-            // try to show the selection fragment
+            // try to show the main app activity
             Intent intent = new Intent(this, MyProfile.class);
             startActivity(intent);
         } else {
