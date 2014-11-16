@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="service_titles">
+        <item>@string/service_hands_title</item>
+        <item>@string/service_handsandfeets_title</item>
+        <item>@string/service_french_title</item>
+        <item>@string/service_draw_title</item>
+    </string-array>
+</resources>

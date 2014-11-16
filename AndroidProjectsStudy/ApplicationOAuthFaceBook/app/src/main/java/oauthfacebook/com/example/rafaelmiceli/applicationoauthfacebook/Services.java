@@ -3,6 +3,7 @@ package oauthfacebook.com.example.rafaelmiceli.applicationoauthfacebook;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -10,9 +11,10 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 
-public class Services extends Activity implements ListView.OnItemClickListener {
+public class Services extends FragmentActivity implements ListView.OnItemClickListener {
 
     private NavigationDrawerHelper mNavigationDrawerHelper;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
