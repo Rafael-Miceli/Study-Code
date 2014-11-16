@@ -29,7 +29,8 @@
         android:id="@+id/topCard"
         android:layout_below="@+id/serviceTitle"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:src="@drawable/ps_android_logo"/>
 
 
 </RelativeLayout>

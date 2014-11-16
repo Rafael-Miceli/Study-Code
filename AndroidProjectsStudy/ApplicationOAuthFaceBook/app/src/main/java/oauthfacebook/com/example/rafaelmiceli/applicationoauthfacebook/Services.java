@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -15,6 +16,9 @@ public class Services extends FragmentActivity implements ListView.OnItemClickLi
 
     private NavigationDrawerHelper mNavigationDrawerHelper;
 
+    ServicePageAdapter mServicePageAdapter;
+    private ViewPager mViewPager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +27,11 @@ public class Services extends FragmentActivity implements ListView.OnItemClickLi
 
         mNavigationDrawerHelper = NavigationDrawerHelper.initializeInstance();
         mNavigationDrawerHelper.init(this, this);
+
+        mServicePageAdapter = new ServicePageAdapter(getSupportFragmentManager(), this);
+
+        mViewPager = (ViewPager) findViewById(R.id.pager);
+        mViewPager.setAdapter(mServicePageAdapter);
     }
 
     @Override
