@@ -14,6 +14,8 @@ import android.support.v4.app.FragmentPagerAdapter;
 public class ServicePageAdapter extends FragmentPagerAdapter {
 
     String[] mServiceTitles;
+	String[] mServiceMoneyPreference;
+	String[] mServiceTimePreference;
     Context mContext;
 
     public ServicePageAdapter(FragmentManager fm, Context context) {
@@ -22,6 +24,8 @@ public class ServicePageAdapter extends FragmentPagerAdapter {
         mContext = context;
         Resources resources = mContext.getResources();
         mServiceTitles = resources.getStringArray(R.array.service_titles);
+        mServiceMoneyPreference = resources.getStringArray(R.array.service_money_pref);
+        mServiceTimePreference = resources.getStringArray(R.array.service_time_pref);
     }
 
     @Override
@@ -29,8 +33,15 @@ public class ServicePageAdapter extends FragmentPagerAdapter {
         Bundle arguments = new Bundle();
         arguments.putString(ServiceFragment.SERVICE_TITLE, mServiceTitles[item]);
         arguments.putInt(ServiceFragment.TOP_CARD, translateTopCardIndex(item));
-        arguments.putInt(ServiceFragment.SERVICE_TIME, 60);
-        arguments.putDouble(ServiceFragment.SERVICE_PRICE, 20);
+		
+		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(mContext);
+		
+		//if (prefs.contains(mServiceMoneyPreference[item]));		
+		//prefs.edit().putString("my_pref", "my_value").commit();
+		//String value = prefs.getString("my_pref", "default Value");
+		
+        arguments.putInt(ServiceFragment.SERVICE_TIME, prefs.getInt(mServiceMoneyPreference[item], 60));
+        arguments.putDouble(ServiceFragment.SERVICE_PRICE, String.valueOf(prefs.getString(mServiceMoneyPreference[item], "20")));
         arguments.putBoolean(ServiceFragment.SERVICE_IDO, true);
 
 
