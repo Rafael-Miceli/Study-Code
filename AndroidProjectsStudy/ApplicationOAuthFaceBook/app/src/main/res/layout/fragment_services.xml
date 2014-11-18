@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Eu faço esse serviço"
-        android:id="@+id/checkBox"
+        android:id="@+id/checkBoxDoService"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true" />
 
@@ -27,7 +27,7 @@
         android:text="Mão"
         android:id="@+id/serviceTitle"
         android:gravity="center_horizontal"
-        android:layout_below="@+id/checkBox"
+        android:layout_below="@+id/checkBoxDoService"
         android:layout_marginTop="10dp"
         android:layout_alignParentLeft="true" />
 
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="6"
-        android:id="@+id/editText2"
+        android:id="@+id/editTextPrice"
         android:layout_marginTop="40dp"
         android:layout_below="@+id/topCard"
         android:layout_toRightOf="@+id/textView" />
@@ -66,15 +66,15 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Tempo"
         android:id="@+id/textView2"
-        android:layout_below="@+id/editText2"
-        android:layout_toLeftOf="@+id/editText2" />
+        android:layout_below="@+id/editTextPrice"
+        android:layout_toLeftOf="@+id/editTextPrice" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="time"
         android:ems="6"
-        android:id="@+id/editText3"
+        android:id="@+id/editTextTime"
         android:layout_below="@+id/textView"
         android:layout_toRightOf="@+id/textView2" />
 

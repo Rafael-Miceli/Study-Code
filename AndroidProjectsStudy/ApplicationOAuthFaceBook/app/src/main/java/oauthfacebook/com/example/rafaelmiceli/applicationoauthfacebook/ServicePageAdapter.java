@@ -25,10 +25,13 @@ public class ServicePageAdapter extends FragmentPagerAdapter {
     }
 
     @Override
-    public Fragment getItem(int i) {
+    public Fragment getItem(int item) {
         Bundle arguments = new Bundle();
-        arguments.putString(ServiceFragment.SERVICE_TITLE, mServiceTitles[i]);
-        arguments.putInt(ServiceFragment.TOP_CARD, translateTopCardIndex(i));
+        arguments.putString(ServiceFragment.SERVICE_TITLE, mServiceTitles[item]);
+        arguments.putInt(ServiceFragment.TOP_CARD, translateTopCardIndex(item));
+        arguments.putInt(ServiceFragment.SERVICE_TIME, 60);
+        arguments.putDouble(ServiceFragment.SERVICE_PRICE, 20);
+        arguments.putBoolean(ServiceFragment.SERVICE_IDO, true);
 
 
         ServiceFragment serviceFragment = new ServiceFragment();
@@ -36,10 +39,10 @@ public class ServicePageAdapter extends FragmentPagerAdapter {
         return serviceFragment;
     }
 
-    private int translateTopCardIndex(int i) {
+    private int translateTopCardIndex(int itemImage) {
         int resourceId;
 
-        switch (i) {
+        switch (itemImage) {
             case 0:
                 resourceId = R.drawable.ps_android_logo;
                 break;
