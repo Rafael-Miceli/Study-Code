@@ -32,5 +32,43 @@
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:src="@drawable/ps_android_logo"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Preço"
+        android:id="@+id/textView"
+        android:layout_below="@+id/topCard"
+        android:layout_toLeftOf="@+id/topCard"
+        android:layout_marginTop="44dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="6"
+        android:id="@+id/editText2"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/topCard"
+        android:layout_toRightOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tempo"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/editText2"
+        android:layout_toLeftOf="@+id/editText2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="6"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/textView2" />
+
 
 </RelativeLayout>

@@ -14,8 +14,6 @@ import com.facebook.UiLifecycleHelper;
 
 public class FacebookLogin extends FragmentActivity {
 
-    private static final int SPLASH = 0;
-
     private boolean isResumed = false;
     private Fragment splashFragment;
     private UiLifecycleHelper uiHelper;
@@ -61,12 +59,12 @@ public class FacebookLogin extends FragmentActivity {
             } else if (state.isClosed()) {
                 // If the session state is closed:
                 // Show the login fragment
-                showFragment(SPLASH, false);
+                showFragment(false);
             }
         }
     }
 
-    private void showFragment(int fragmentIndex, boolean addToBackStack) {
+    private void showFragment(boolean addToBackStack) {
 
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction transaction = fm.beginTransaction();
@@ -92,7 +90,7 @@ public class FacebookLogin extends FragmentActivity {
         } else {
             // otherwise present the splash screen
             // and ask the person to login.
-            showFragment(SPLASH, false);
+            showFragment(false);
         }
     }
 

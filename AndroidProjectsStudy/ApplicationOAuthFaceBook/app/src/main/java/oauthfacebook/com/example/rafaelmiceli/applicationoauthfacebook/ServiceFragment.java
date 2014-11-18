@@ -50,14 +50,4 @@ public class ServiceFragment extends Fragment {
 
         topCardImageView.setImageResource(topCardResourceId);
     }
-
-    /*private void showActionActivity(int courseActionResourceId) {
-        Intent intent = new Intent(getActivity(), CourseActionsActivity.class);
-        intent.putExtra(CourseActionsActivity.COURSE_ACTION, getString(courseActionResourceId));
-        intent.putExtra(CourseActionsActivity.COURSE_TITLE, mServiceTitle);
-        intent.putExtra(CourseActionsActivity.TOP_CARD, mTopCardResourceId);
-
-        startActivity(intent);
-    }*/
-
 }
