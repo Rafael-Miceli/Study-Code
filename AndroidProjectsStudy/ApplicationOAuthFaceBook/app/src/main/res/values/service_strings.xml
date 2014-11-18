@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="service_hands_title">Mão</string>
+    <string name="service_handsandfeets_title">Pé e Mão</string>
+    <string name="service_french_title">Francesinha</string>
+    <string name="service_draw_title">Desenhos</string>
+</resources>

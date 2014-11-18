@@ -15,11 +15,9 @@ import com.facebook.UiLifecycleHelper;
 public class FacebookLogin extends FragmentActivity {
 
     private static final int SPLASH = 0;
-    private static final int FRAGMENT_COUNT = SPLASH + 1;
-
 
     private boolean isResumed = false;
-    private Fragment[] fragments = new Fragment[FRAGMENT_COUNT];
+    private Fragment splashFragment;
     private UiLifecycleHelper uiHelper;
     private Session.StatusCallback callback =
             new Session.StatusCallback() {
@@ -40,7 +38,7 @@ public class FacebookLogin extends FragmentActivity {
         setContentView(R.layout.activity_facebook_login);
 
         FragmentManager fm = getSupportFragmentManager();
-        fragments[SPLASH] = fm.findFragmentById(R.id.splashFragment);
+        splashFragment = fm.findFragmentById(R.id.splashFragment);
 
     }
 
@@ -73,7 +71,7 @@ public class FacebookLogin extends FragmentActivity {
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction transaction = fm.beginTransaction();
 
-        transaction.show(fragments[fragmentIndex]);
+        transaction.show(splashFragment);
 
         if (addToBackStack) {
             transaction.addToBackStack(null);
