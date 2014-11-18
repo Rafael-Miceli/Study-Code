@@ -12,16 +12,24 @@
     android:gravity="fill_horizontal"
     >
 
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eu faço esse serviço"
+        android:id="@+id/checkBox"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Mão"
         android:id="@+id/serviceTitle"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
-        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+        android:layout_below="@+id/checkBox"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -69,6 +77,8 @@
         android:id="@+id/editText3"
         android:layout_below="@+id/textView"
         android:layout_toRightOf="@+id/textView2" />
+
+
 
 
 </RelativeLayout>
