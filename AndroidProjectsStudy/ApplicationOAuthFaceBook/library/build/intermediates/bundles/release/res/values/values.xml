@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/C:/Users/rafael.miceli/Documents/GitHub/Study-Code/AndroidProjectsStudy/ApplicationOAuthFaceBook/library/src/main/res/values/attrs.xml -->
+    <!-- From: file:/C:/Users/Rafael/Documents/GitHub/Study-Code/AndroidProjectsStudy/ApplicationOAuthFaceBook/library/src/main/res/values/attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="WeekView">
