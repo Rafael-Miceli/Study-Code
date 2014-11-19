@@ -12,16 +12,24 @@
     android:gravity="fill_horizontal"
     >
 
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eu faço esse serviço"
+        android:id="@+id/checkBoxDoService"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Mão"
         android:id="@+id/serviceTitle"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
-        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+        android:layout_below="@+id/checkBoxDoService"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -36,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Preço"
+        android:text="Preço R$"
         android:id="@+id/textView"
         android:layout_below="@+id/topCard"
         android:layout_toLeftOf="@+id/topCard"
@@ -47,7 +55,7 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="6"
-        android:id="@+id/editText2"
+        android:id="@+id/editTextPrice"
         android:layout_marginTop="40dp"
         android:layout_below="@+id/topCard"
         android:layout_toRightOf="@+id/textView" />
@@ -58,17 +66,19 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Tempo"
         android:id="@+id/textView2"
-        android:layout_below="@+id/editText2"
-        android:layout_toLeftOf="@+id/editText2" />
+        android:layout_below="@+id/editTextPrice"
+        android:layout_toLeftOf="@+id/editTextPrice" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="time"
         android:ems="6"
-        android:id="@+id/editText3"
+        android:id="@+id/editTextTime"
         android:layout_below="@+id/textView"
         android:layout_toRightOf="@+id/textView2" />
+
+
 
 
 </RelativeLayout>
