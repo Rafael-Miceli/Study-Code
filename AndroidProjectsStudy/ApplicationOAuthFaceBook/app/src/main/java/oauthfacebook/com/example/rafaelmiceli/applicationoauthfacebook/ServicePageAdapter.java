@@ -37,12 +37,6 @@ public class ServicePageAdapter extends FragmentPagerAdapter {
         arguments.putInt(ServiceFragment.TOP_CARD, translateTopCardIndex(item));
 		
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(mContext);
-		
-		//if (prefs.contains(mServiceMoneyPreference[item]));		
-		//prefs.edit().putString("my_pref", "my_value").commit();
-		//String value = prefs.getString("my_pref", "default Value");
-
-        //String value = prefs.getString(mServiceTimePreference[item], "60");
 
         arguments.putInt(ServiceFragment.SERVICE_TIME, prefs.getInt(mServiceTimePreference[item], 60));
         arguments.putDouble(ServiceFragment.SERVICE_PRICE, Double.valueOf(String.valueOf(prefs.getString(mServiceMoneyPreference[item], "20"))));
