@@ -32,6 +32,7 @@ public class ServiceFragment extends Fragment {
     boolean mIdo;
     double mPrice;
     int mTime;
+    AzureTableCommunication mAzureTableCommunication;
 
     String[] mServiceMoneyPreference;
     String[] mServiceTimePreference;
@@ -42,6 +43,7 @@ public class ServiceFragment extends Fragment {
     CheckBox iDoServiceCheckBox;
     EditText priceEditText;
     EditText timeEditText;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,6 +58,7 @@ public class ServiceFragment extends Fragment {
         Resources resources = theView.getResources();
         mServiceMoneyPreference = resources.getStringArray(R.array.service_money_pref);
         mServiceTimePreference = resources.getStringArray(R.array.service_time_pref);
+        mAzureTableCommunication = new AzureTableCommunication();
 
         Bundle arguments = getArguments();
         if (arguments != null) {
@@ -110,8 +113,11 @@ public class ServiceFragment extends Fragment {
                     if (mServiceTitle.equals("Desenhos")) {
                         prefs.edit().putString(mServiceMoneyPreference[3], s.toString()).commit();
                     }
-                }
 
+                    ServiceModel serviceModel = new ServiceModel("Rafael", mServiceTitle, s.toString(), mTime);
+
+                    mAzureTableCommunication.insertService(serviceModel);
+                }
             }
 
             @Override
@@ -149,6 +155,10 @@ public class ServiceFragment extends Fragment {
                     if (mServiceTitle.equals("Desenhos")) {
                         prefs.edit().putInt(mServiceTimePreference[3], Integer.valueOf(s.toString())).commit();
                     }
+
+                    ServiceModel serviceModel = new ServiceModel("Rafael", mServiceTitle, String.valueOf(mPrice), Integer.valueOf(s.toString()));
+
+                    mAzureTableCommunication.insertService(serviceModel);
                 }
 
             }
