@@ -28,9 +28,6 @@ public class ServicePageAdapter extends FragmentPagerAdapter {
         mServiceTitles = resources.getStringArray(R.array.service_titles);
         mServiceMoneyPreference = resources.getStringArray(R.array.service_money_pref);
         mServiceTimePreference = resources.getStringArray(R.array.service_time_pref);
-
-        AzureTableCommunication azureTableCommunication = new AzureTableCommunication();
-        azureTableCommunication.createServiceTable();
     }
 
     @Override

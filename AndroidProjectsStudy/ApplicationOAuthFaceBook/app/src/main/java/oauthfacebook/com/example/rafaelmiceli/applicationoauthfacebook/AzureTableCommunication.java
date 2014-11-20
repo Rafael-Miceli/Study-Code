@@ -1,8 +1,10 @@
 package oauthfacebook.com.example.rafaelmiceli.applicationoauthfacebook;
 
-import com.microsoft.azure.storage.*;
-import com.microsoft.azure.storage.table.*;
-import com.microsoft.azure.storage.table.TableQuery.*;
+
+import com.microsoft.azure.storage.CloudStorageAccount;
+import com.microsoft.azure.storage.table.CloudTable;
+import com.microsoft.azure.storage.table.CloudTableClient;
+import com.microsoft.azure.storage.table.TableOperation;
 
 /**
  * Created by Rafael on 19/11/2014.
@@ -11,9 +13,9 @@ public class AzureTableCommunication {
 
     // Define the connection-string with your values.
     public static final String storageConnectionString =
-            "DefaultEndpointsProtocol=http;" +
-                    "AccountName=your_storage_account;" +
-                    "AccountKey=your_storage_account_key";
+            "DefaultEndpointsProtocol=https;" +
+                    "AccountName=manicureapp;" +
+                    "AccountKey=H35FsL0SaVu6uYedFAocWiN+gCr4vuQhq9TqWjqGmjsimZ3FNA0kCmlQf58ng3P8VE7iAakZqzueotX38uqupw==";
 
     public final String TABLENAME = "services";
 
@@ -22,16 +24,15 @@ public class AzureTableCommunication {
         try
         {
             // Retrieve storage account from connection-string.
-            CloudStorageAccount storageAccount =
-                    CloudStorageAccount.parse(storageConnectionString);
+            CloudStorageAccount storageAccount = CloudStorageAccount.parse(storageConnectionString);
 
             // Create the table client.
             CloudTableClient tableClient = storageAccount.createCloudTableClient();
 
+            CloudTable cloudTable = tableClient.getTableReference(TABLENAME);
+
             // Create the table if it doesn't exist.
-            String tableName = TABLENAME;
-            CloudTable cloudTable = new CloudTable(tableName,tableClient);
-            cloudTable.createIfNotExists();
+            cloudTable.create();
         }
         catch (Exception e)
         {

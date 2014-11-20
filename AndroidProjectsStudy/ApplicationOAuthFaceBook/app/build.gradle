@@ -32,6 +32,5 @@ dependencies {
     compile 'com.google.android.gms:play-services:4.2.42'
     compile project(':facebook')
     compile project(':library')
-    compile 'com.microsoft.azure.android:azure-storage-android:0.3.0@aar'
-
+    compile project (':microsoft-azure-storage')
 }

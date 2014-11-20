@@ -113,10 +113,6 @@ public class ServiceFragment extends Fragment {
                     if (mServiceTitle.equals("Desenhos")) {
                         prefs.edit().putString(mServiceMoneyPreference[3], s.toString()).commit();
                     }
-
-                    ServiceModel serviceModel = new ServiceModel("Rafael", mServiceTitle, s.toString(), mTime);
-
-                    mAzureTableCommunication.insertService(serviceModel);
                 }
             }
 
@@ -155,10 +151,6 @@ public class ServiceFragment extends Fragment {
                     if (mServiceTitle.equals("Desenhos")) {
                         prefs.edit().putInt(mServiceTimePreference[3], Integer.valueOf(s.toString())).commit();
                     }
-
-                    ServiceModel serviceModel = new ServiceModel("Rafael", mServiceTitle, String.valueOf(mPrice), Integer.valueOf(s.toString()));
-
-                    mAzureTableCommunication.insertService(serviceModel);
                 }
 
             }

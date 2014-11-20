@@ -1,1 +1,1 @@
-include ':app', ':facebook', ':library'
+include ':app', ':facebook', ':library', ':jackson-core-2.4.3', ':microsoft-azure-storage'
