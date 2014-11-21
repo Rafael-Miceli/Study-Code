@@ -23,8 +23,14 @@ android {
     }
 }
 
+repositories {
+    mavenCentral()
+}
+
+
 dependencies {
     compile 'com.google.android.gms:play-services:4.2.42'
     compile project(':facebook')
     compile project(':library')
+    compile project (':microsoft-azure-storage')
 }

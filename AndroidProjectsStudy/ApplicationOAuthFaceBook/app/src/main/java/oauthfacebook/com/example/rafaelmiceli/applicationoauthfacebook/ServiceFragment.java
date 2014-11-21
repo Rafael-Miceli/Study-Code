@@ -32,6 +32,7 @@ public class ServiceFragment extends Fragment {
     boolean mIdo;
     double mPrice;
     int mTime;
+    AzureTableCommunication mAzureTableCommunication;
 
     String[] mServiceMoneyPreference;
     String[] mServiceTimePreference;
@@ -42,6 +43,7 @@ public class ServiceFragment extends Fragment {
     CheckBox iDoServiceCheckBox;
     EditText priceEditText;
     EditText timeEditText;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,6 +58,7 @@ public class ServiceFragment extends Fragment {
         Resources resources = theView.getResources();
         mServiceMoneyPreference = resources.getStringArray(R.array.service_money_pref);
         mServiceTimePreference = resources.getStringArray(R.array.service_time_pref);
+        mAzureTableCommunication = new AzureTableCommunication();
 
         Bundle arguments = getArguments();
         if (arguments != null) {
@@ -111,7 +114,6 @@ public class ServiceFragment extends Fragment {
                         prefs.edit().putString(mServiceMoneyPreference[3], s.toString()).commit();
                     }
                 }
-
             }
 
             @Override
