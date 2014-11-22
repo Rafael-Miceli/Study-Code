@@ -14,8 +14,8 @@ public class AzureTableCommunication {
     // Define the connection-string with your values.
     public static final String storageConnectionString =
             "DefaultEndpointsProtocol=https;" +
-                    "AccountName=manicureapp;" +
-                    "AccountKey=H35FsL0SaVu6uYedFAocWiN+gCr4vuQhq9TqWjqGmjsimZ3FNA0kCmlQf58ng3P8VE7iAakZqzueotX38uqupw==";
+                    "AccountName=YOUR_ACCOUNT_NAME;" +
+                    "AccountKey=YOUR_ACCOUNT_KEY";
 
     public final String TABLENAME = "services";
 

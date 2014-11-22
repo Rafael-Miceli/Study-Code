@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="debug" >
+        <source path="C:\Users\Rafael\Documents\GitHub\Study-Code\AndroidProjectsStudy\ApplicationOAuthFaceBook\microsoft-azure-storage\build\intermediates\bundles\debug\res" >
+            <file
+                path="C:\Users\Rafael\Documents\GitHub\Study-Code\AndroidProjectsStudy\ApplicationOAuthFaceBook\microsoft-azure-storage\build\intermediates\bundles\debug\res\values\values.xml"
+                qualifiers="" >
+                <string name="dummyString" >dummyStringToAllowMavenAARGeneratio
+                </string>
+            </file>
+        </source>
+    </dataSet>
+    <dataSet config="main" >
+        <source path="C:\Users\Rafael\Documents\GitHub\Study-Code\AndroidProjectsStudy\ApplicationOAuthFaceBook\microsoft-azure-storage\src\androidTest\res" />
+        <source path="C:\Users\Rafael\Documents\GitHub\Study-Code\AndroidProjectsStudy\ApplicationOAuthFaceBook\microsoft-azure-storage\build\generated\res\rs\test\debug" />
+        <source path="C:\Users\Rafael\Documents\GitHub\Study-Code\AndroidProjectsStudy\ApplicationOAuthFaceBook\microsoft-azure-storage\build\generated\res\generated\test\debug" />
+    </dataSet>
+
+</merger>
