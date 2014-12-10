@@ -42,7 +42,9 @@ public class MyHandler extends NotificationsHandler {
                                 .bigText(msg))
                         .setContentText(msg);
 
-        Toast.makeText(ctx, msg, Toast.LENGTH_LONG);
+        Toast toast = Toast.makeText(ctx, msg, Toast.LENGTH_LONG);
+        toast.show();
+
         mBuilder.setContentIntent(contentIntent);
         mNotificationManager.notify(NOTIFICATION_ID, mBuilder.build());
 

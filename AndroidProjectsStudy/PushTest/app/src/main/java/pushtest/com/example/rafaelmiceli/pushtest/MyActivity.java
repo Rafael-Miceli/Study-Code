@@ -12,7 +12,7 @@ import com.microsoft.windowsazure.notifications.NotificationsManager;
 
 public class MyActivity extends Activity {
 
-    private String SENDER_ID = "709979546467";
+    private String SENDER_ID = "GCM project number";
     private GoogleCloudMessaging gcm;
     private NotificationHub hub;
 
@@ -25,8 +25,8 @@ public class MyActivity extends Activity {
 
         gcm = GoogleCloudMessaging.getInstance(this);
 
-        String connectionString = "c2D7nWLIc+3h8CCrLvsPvpXUQkrmmSGJe9UdWiL/xcU=";
-        hub = new NotificationHub("https://arduinoapphub-ns.servicebus.windows.net/arduinoapphub", connectionString, this);
+        String connectionString = "W.A. Connection String in portuguese (Cadeia de Conexão)";
+        hub = new NotificationHub("Notification Hub Name (not entire url)", connectionString, this);
 
         registerWithNotificationHubs();
     }
