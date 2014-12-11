@@ -4,5 +4,12 @@
     <string name="app_name">PushTest</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="button_subscribe">Subscribe</string>
+    <string name="label_world">World</string>
+    <string name="label_politics">Politics</string>
+    <string name="label_business">Business</string>
+    <string name="label_technology">Technology</string>
+    <string name="label_science">Science</string>
+    <string name="label_sports">Sports</string>
 
 </resources>
