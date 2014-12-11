@@ -9,6 +9,7 @@ import android.widget.Toast;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.microsoft.windowsazure.messaging.NotificationHub;
 
+import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -60,4 +61,8 @@ public class Notifications {
         }.execute(null, null, null);
     }
 
+    public Set<String> retrieveCategories() {
+        SharedPreferences settings = context.getSharedPreferences(PREFS_NAME, 0);
+        return settings.getStringSet("categories", new HashSet<String>());
+    }
 }

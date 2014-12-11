@@ -5,16 +5,23 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.os.AsyncTask;
+import android.view.View;
+import android.widget.CheckBox;
+
 import com.google.android.gms.gcm.*;
 import com.microsoft.windowsazure.messaging.*;
 import com.microsoft.windowsazure.notifications.NotificationsManager;
+
+import java.util.HashSet;
+import java.util.Set;
 
 
 public class MyActivity extends Activity {
 
     private String SENDER_ID = "GCM project number";
-    private GoogleCloudMessaging gcm;
-    private NotificationHub hub;
+    //private GoogleCloudMessaging gcm;
+    //private NotificationHub hub;
+    private Notifications notifications;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,14 +30,12 @@ public class MyActivity extends Activity {
 
         NotificationsManager.handleNotifications(this, SENDER_ID, MyHandler.class);
 
-        gcm = GoogleCloudMessaging.getInstance(this);
-
-        String connectionString = "W.A. Connection String in portuguese (Cadeia de Conexão)";
-        hub = new NotificationHub("Notification Hub Name (not entire url)", connectionString, this);
-
-        registerWithNotificationHubs();
+        //String connectionString = "W.A. Connection String in portuguese (Cadeia de Conexão)";
+        notifications = new Notifications(this, SENDER_ID);
+        notifications.subscribeToCategories(notifications.retrieveCategories());
     }
 
+    /*
     @SuppressWarnings("unchecked")
     private void registerWithNotificationHubs() {
         new AsyncTask() {
@@ -46,7 +51,52 @@ public class MyActivity extends Activity {
             }
         }.execute(null, null, null);
     }
+    */
 
+    public void subscribe(View sender) {
+        final Set<String> categories = new HashSet<String>();
+
+        CheckBox world = (CheckBox) findViewById(R.id.worldBox);
+        if (world.isChecked())
+            categories.add("world");
+        CheckBox politics = (CheckBox) findViewById(R.id.politicsBox);
+        if (politics.isChecked())
+            categories.add("politics");
+        CheckBox business = (CheckBox) findViewById(R.id.businessBox);
+        if (business.isChecked())
+            categories.add("business");
+        CheckBox technology = (CheckBox) findViewById(R.id.technologyBox);
+        if (technology.isChecked())
+            categories.add("technology");
+        CheckBox science = (CheckBox) findViewById(R.id.scienceBox);
+        if (science.isChecked())
+            categories.add("science");
+        CheckBox sports = (CheckBox) findViewById(R.id.sportsBox);
+        if (sports.isChecked())
+            categories.add("sports");
+
+        notifications.storeCategoriesAndSubscribe(categories);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        Set<String> categories = notifications.retrieveCategories();
+
+        CheckBox world = (CheckBox) findViewById(R.id.worldBox);
+        world.setChecked(categories.contains("world"));
+        CheckBox politics = (CheckBox) findViewById(R.id.politicsBox);
+        politics.setChecked(categories.contains("politics"));
+        CheckBox business = (CheckBox) findViewById(R.id.businessBox);
+        business.setChecked(categories.contains("business"));
+        CheckBox technology = (CheckBox) findViewById(R.id.technologyBox);
+        technology.setChecked(categories.contains("technology"));
+        CheckBox science = (CheckBox) findViewById(R.id.scienceBox);
+        science.setChecked(categories.contains("science"));
+        CheckBox sports = (CheckBox) findViewById(R.id.sportsBox);
+        sports.setChecked(categories.contains("sports"));
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
