@@ -27,7 +27,7 @@ public class Notifications {
         this.senderId = senderId;
 
         gcm = GoogleCloudMessaging.getInstance(context);
-        hub = new NotificationHub(<"hub name">, <"connection string with listen access">, context);
+        hub = new NotificationHub("hub name", "connection string with listen access", context);
     }
 
     public void storeCategoriesAndSubscribe(Set<String> categories)
