@@ -32,7 +32,6 @@ public class ServiceFragment extends Fragment {
     boolean mIdo;
     double mPrice;
     int mTime;
-    AzureTableCommunication mAzureTableCommunication;
 
     String[] mServiceMoneyPreference;
     String[] mServiceTimePreference;
@@ -58,7 +57,6 @@ public class ServiceFragment extends Fragment {
         Resources resources = theView.getResources();
         mServiceMoneyPreference = resources.getStringArray(R.array.service_money_pref);
         mServiceTimePreference = resources.getStringArray(R.array.service_time_pref);
-        mAzureTableCommunication = new AzureTableCommunication();
 
         Bundle arguments = getArguments();
         if (arguments != null) {

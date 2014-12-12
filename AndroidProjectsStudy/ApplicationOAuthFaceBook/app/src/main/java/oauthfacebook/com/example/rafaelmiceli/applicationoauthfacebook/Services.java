@@ -22,17 +22,6 @@ public class Services extends FragmentActivity implements ListView.OnItemClickLi
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-        new AsyncTask<Void, Void, Void>() {
-            @Override
-            protected Void doInBackground(Void... params) {
-                AzureTableCommunication azureTableCommunication = new AzureTableCommunication();
-                azureTableCommunication.createServiceTable();
-
-                return null;
-            }
-        }.execute();
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_services);
 

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">PushTest</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -11,5 +10,4 @@
     <string name="label_technology">Technology</string>
     <string name="label_science">Science</string>
     <string name="label_sports">Sports</string>
-
 </resources>

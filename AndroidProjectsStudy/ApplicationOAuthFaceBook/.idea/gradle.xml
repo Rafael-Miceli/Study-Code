@@ -12,7 +12,6 @@
             <option value="$PROJECT_DIR$/facebook" />
             <option value="$PROJECT_DIR$/jackson-core-2.4.3" />
             <option value="$PROJECT_DIR$/library" />
-            <option value="$PROJECT_DIR$/microsoft-azure-storage" />
           </set>
         </option>
       </GradleProjectSettings>
